@@ -1,0 +1,141 @@
+#portal-projects .portal-modal,
+#portal-projects {
+    direction: rtl !important;
+}
+
+#portal-projects .portal-modal *,
+#portal-projects * {
+    direction: rtl !important;
+}
+
+#portal-projects .portal-archive-project .portal-priority {
+    right: auto;
+    left: 20px;
+}
+
+#portal-projects .portal-task-table .portal-task-table-status em.status,
+#portal-projects .acf-image-uploader .no-image,
+#portal-projects p.portal-tb-progress span, #portal-projects p.portal-progress span, #portal-projects .portal-progress span,
+#portal-projects .portal-task-list li em.status {
+    float: right;
+}
+
+#portal-projects label, #portal-projects td.label,
+#portal-projects.portal-fe-manage-template .acf_postbox *,
+#portal-projects .portal_fe_title_fields input[type='text'],
+#portal-projects .portal-modal label,
+#portal-projects .portal-phase,
+#portal-projects .portal-phase * {
+    text-align: inherit !important;
+}
+
+#portal-projects .portal-fe-edit-documents,
+#portal-projects .portal-fe-edit-link.portal-fe-edit-overview,
+#portal-projects .portal-section-heading p.portal-section-data,
+#portal-projects .portal-phase h4 span,
+#portal-projects .phase-comments h4 span {
+    float: left !important;
+}
+
+#portal-projects .portal-section-heading h1.portal-section-title,
+#portal-projects .portal-section-heading h2.portal-section-title,
+#portal-projects .portal-timeline li {
+    float: right !important;
+}
+
+#portal-projects .portal-task-table-body .col-md-8 {
+    float: right;
+}
+
+#portal-projects .portal-enhanced-milestones ul.portal-milestone-dots li strong.portal-single-milestone span.portal-marker-title::before {
+    left: auto;
+    right: -5px;
+}
+
+#portal-projects .portal-enhanced-milestones ul.portal-milestone-dots li strong.portal-single-milestone span.portal-marker-title::after {
+    left: auto;
+    right: 0;
+}
+
+#portal-projects .portal-enhanced-milestones ul.portal-milestone-dots li b.portal-milestone-dot {
+    margin: -33px -20px 25px 0px;
+}
+
+#portal-projects .portal-enhanced-milestones ul.portal-milestone-dots li b.portal-milestone-dot::after {
+    margin: 5px 20px 0 0;
+}
+#portal-projects .portal-select-wrapper::before {
+    right: auto !important;
+    left: 15px !important;
+}
+
+#portal-projects .portal-expand-comments i.fa {
+    margin-top: 7px;
+    margin-right: 3px;
+}
+
+#portal-projects .portal-expand-comments i.fa,
+#portal-projects .portal-client,
+#portal-projects #portal-searchform,
+#portal-projects .portal-section-nav .portal-new-project-btn,
+#portal-projects .portal-section-nav .portal-pull-right,
+#portal-projects h4.portal-wizard-section strong {
+    float: left !important;
+}
+
+#portal-projects .portal-section-nav .portal-pull-right {
+    border-right: 0 !important;
+    padding-left: 0;
+}
+
+#portal-projects .portal-client {
+    margin-right: 10px;
+}
+
+#portal-projects .portal-archive-section .portal-sub-nav,
+#portal-projects .portal-archive-project .portal-archive-list-dates,
+#portal-projects .portal-archive-project .portal-row + .portal-row .portal-col-md-6 {
+    float: right !important;
+}
+#portal-projects .portal-select-wrapper select {
+    padding: 12px 10px 9px 20px;
+}
+#portal-projects .portal-element-tally span,
+#portal-projects .portal-task-project li {
+    text-align: right !important;
+
+}
+#portal-projects .portal-element-tally {
+    border-left: 0;
+}
+
+
+#portal-projects .portal-milestone-5 { left: auto; right: 5%; }
+#portal-projects .portal-milestone-10 { left: auto; right: 10%;}
+#portal-projects .portal-milestone-15 { left: auto; right: 15%; }
+#portal-projects .portal-milestone-20 { left: auto; right: 20%; }
+#portal-projects .portal-milestone-25 { left: auto; right: 25%; }
+#portal-projects .portal-milestone-30 { left: auto; right: 30%; }
+#portal-projects .portal-milestone-35 { left: auto; right: 35%; }
+#portal-projects .portal-milestone-40 { left: auto; right: 40%; }
+#portal-projects .portal-milestone-45 { left: auto; right: 45%; }
+#portal-projects .portal-milestone-50 { left: auto; right: 50%; }
+#portal-projects .portal-milestone-55 { left: auto; right: 55%; }
+#portal-projects .portal-milestone-60 { left: auto; right: 60%; }
+#portal-projects .portal-milestone-65 { left: auto; right: 65%; }
+#portal-projects .portal-milestone-70 { left: auto; right: 70%; }
+#portal-projects .portal-milestone-75 { left: auto; right: 75%; }
+#portal-projects .portal-milestone-80 { left: auto; right: 80%; }
+#portal-projects .portal-milestone-85 { left: auto; right: 85%; }
+#portal-projects .portal-milestone-90 { left: auto; right: 90%; }
+#portal-projects .portal-milestone-95 { left: auto; right: 95%; }
+#portal-projects .portal-milestone-100 { left: auto; right: 100%; }
+
+#portal-projects #portal-project-summary .summary-chart-wrap {
+    left: auto;
+    right: 15px;
+}
+
+#portal-projects #portal-project-summary .portal-summary-stat {
+    padding: 12px 80px 12px 0;
+}

@@ -1,0 +1,4781 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"Project-Id-Version: Project yoop\n"
+"POT-Creation-Date: 2017-09-15 21:30-0400\n"
+"PO-Revision-Date: 2018-05-18 18:59+0000\n"
+"Language-Team: English (United States)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: yoop-project-portal.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: admin <dev-email@flywheel.local>\n"
+"Language: en-US\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Report-Msgid-Bugs-To: "
+
+#: EDD_SL_Plugin_Updater.php:201
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:209
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:369
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:369
+#: lib/vendor/acf/master/core/actions/export.php:26
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:58
+msgid "Error"
+msgstr ""
+
+#: lib/controllers/portal-activity.php:9 lib/controllers/portal-activity.php:25
+msgid "updated project"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:83
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: lib/controllers/portal-discussions.php:93
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:93
+msgid "(Edit)"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:96
+#: lib/controllers/portal-discussions.php:502
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:103
+msgid "Reply"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:238
+#: lib/vendor/acf/master/core/controllers/field_groups.php:419
+#: lib/vendor/acf/master/core/fields/file.php:109
+msgid "Name"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:240
+#: lib/controllers/portal-notification-email.php:6
+#: lib/vendor/acf/master/core/fields/email.php:19 portal-license.php:212
+#: portal-settings.php:210
+msgid "Email"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:242
+msgid "Website"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:246
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:258
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:260
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:262
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:263
+msgid "Your email address will not be published."
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:270
+msgid "Leave a Reply"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:271
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:272
+msgid "Cancel reply"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:273
+msgid "Post Comment"
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:552
+msgid "Adding your comment..."
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:553
+msgid ""
+"Your comment failed, you either are posting a duplicate comment or have "
+"tried to comment again too quickly."
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:554
+msgid "Comment added..."
+msgstr ""
+
+#: lib/controllers/portal-discussions.php:555
+msgid "Comment failed, you might be having connectivity issues"
+msgstr ""
+
+#: lib/controllers/portal-documents.php:33
+msgid "You don't have access to this file"
+msgstr ""
+
+#: lib/controllers/portal-documents.php:44
+msgid "File no longer exists"
+msgstr ""
+
+#: lib/controllers/portal-documents.php:88 lib/pro/fields/overview-acf5.php:188
+#: lib/pro/fields/overview.php:176
+#: lib/templates/global/document-status-modal.php:30
+#: lib/templates/projects/overview/documents/single/modal.php:24
+#: lib/templates/projects/phases/documents/modal.php:24
+msgid "Approved"
+msgstr ""
+
+#: lib/controllers/portal-documents.php:94 lib/pro/fields/overview-acf5.php:189
+#: lib/pro/fields/overview.php:177
+#: lib/templates/global/document-status-modal.php:31
+#: lib/templates/projects/overview/documents/single/modal.php:25
+#: lib/templates/projects/phases/documents/modal.php:25
+msgid "In Review"
+msgstr ""
+
+#: lib/controllers/portal-documents.php:100 lib/pro/fields/overview-acf5.php:190
+#: lib/pro/fields/overview.php:178
+#: lib/templates/global/document-status-modal.php:32
+#: lib/templates/projects/overview/documents/single/modal.php:26
+#: lib/templates/projects/phases/documents/modal.php:26
+#: lib/vendor/acf/master/core/views/meta_box_options.php:102
+msgid "Revisions"
+msgstr ""
+
+#: lib/controllers/portal-documents.php:105 lib/pro/fields/overview-acf5.php:191
+#: lib/pro/fields/overview.php:179
+#: lib/templates/global/document-status-modal.php:33
+#: lib/templates/projects/overview/documents/single/modal.php:27
+#: lib/templates/projects/phases/documents/modal.php:27
+msgid "Rejected"
+msgstr ""
+
+#: lib/controllers/portal-notification-email.php:7
+msgid "New email notification"
+msgstr ""
+
+#: lib/controllers/portal-notification-email.php:11
+msgid "Recipients"
+msgstr ""
+
+#: lib/controllers/portal-notification-email.php:14
+msgid ""
+"<span class=\"portal-label-new-line\">Separate emails with commas. Use <code>"
+"%users%</code> to send to all users or to specific roles: <code>"
+"%subscribers%</code>, <code>%project_owners%</code>, <code>"
+"%project_managers%</code>. <span class=\"portal-dyn-var task_assigned "
+"users_assigned task_overdue\">Use <code>%target%</code> to send to related "
+"user.</span>"
+msgstr ""
+
+#: lib/controllers/portal-notification-email.php:19 portal-license.php:1122
+#: portal-settings.php:1159
+msgid "Subject Line"
+msgstr ""
+
+#: lib/controllers/portal-notification-email.php:24
+#: lib/controllers/portal-notifications.php:376
+#: lib/templates/global/document-status-modal.php:77
+#: lib/templates/projects/overview/documents/single/modal.php:71
+#: lib/templates/projects/phases/documents/modal.php:71
+#: lib/vendor/acf/master/core/fields/message.php:19
+#: lib/vendor/acf/master/core/fields/message.php:70
+#: lib/vendor/acf/master/core/fields/true_false.php:79 portal-license.php:1127
+#: portal-settings.php:1164
+msgid "Message"
+msgstr ""
+
+#: lib/controllers/portal-notification-email.php:28
+#, php-format
+msgid "Possible available dynamic variables: %s"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: lib/controllers/portal-notifications.php:102
+#: lib/controllers/portal-notifications.php:141 lib/portal-welcome.php:123
+msgid "Project yoop"
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:339
+#: lib/controllers/portal-notifications.php:397
+msgid "Notify users of update"
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:341
+#: lib/vendor/acf/master/core/fields/image.php:91
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:108
+#: lib/vendor/acf/repeater/views/options.php:82
+msgid "Edit"
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:347
+msgid "Save this project to notify recently added users."
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:351
+msgid "Select which users you'd like to notify upon save."
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:356
+#: lib/templates/global/document-status-modal.php:49
+#: lib/templates/projects/overview/documents/single/modal.php:43
+#: lib/templates/projects/phases/documents/modal.php:43
+msgid "All Users"
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:371
+msgid "Subject"
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:381
+msgid ""
+"Available dynamic variables: %project_title% %client% %project_url% "
+"%dashboard% %date%"
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:385
+msgid ""
+"Selected users will be sent this notice next time you save this project."
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:387
+msgid "OK"
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:399
+msgid "Help"
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:404
+msgid "Users must be assigned to this project before you can notify them."
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:406
+msgid ""
+"Assign users to this project by through the access tab under project "
+"overview. Once you save the project you can notify users on future updates."
+msgstr ""
+
+#: lib/controllers/portal-notifications.php:407
+msgid "Example:"
+msgstr ""
+
+#: lib/controllers/portal-permissions.php:60
+msgid "Project Owner"
+msgstr ""
+
+#: lib/controllers/portal-permissions.php:71
+msgid "Project Creator"
+msgstr ""
+
+#: lib/controllers/portal-permissions.php:82
+msgid "Project Manager"
+msgstr ""
+
+#: lib/controllers/portal-permissions.php:636
+#: lib/vendor/acf/master/core/fields/password.php:19
+msgid "Password"
+msgstr ""
+
+#: lib/controllers/portal-permissions.php:640
+msgid "Submit"
+msgstr ""
+
+#: lib/controllers/portal-tasks.php:68 lib/controllers/portal-timing.php:531
+#: lib/pro/fields/phases-acf5.php:256 lib/pro/fields/phases.php:237
+#: lib/pro/portal-pro-shortcodes.php:864
+msgid "Task"
+msgstr ""
+
+#: lib/controllers/portal-tasks.php:69 lib/pro/fields/overview-acf5.php:142
+#: lib/pro/fields/overview.php:129
+msgid "Phase"
+msgstr ""
+
+#: lib/controllers/portal-tasks.php:72 lib/pro/fields/phases-acf5.php:290
+#: lib/pro/fields/phases.php:271
+msgid "Completion"
+msgstr ""
+
+#: lib/controllers/portal-tasks.php:113
+#: lib/templates/projects/phases/tasks/index.php:15
+msgid "completed tasks"
+msgstr ""
+
+#: lib/controllers/portal-tasks.php:117
+#: lib/templates/projects/phases/tasks/index.php:17
+msgid "open tasks"
+msgstr ""
+
+#: lib/controllers/portal-tasks.php:123
+#: lib/templates/projects/phases/tasks/index.php:20
+msgid "of"
+msgstr ""
+
+#: lib/controllers/portal-tasks.php:123
+#: lib/templates/projects/phases/tasks/index.php:20
+msgid "completed"
+msgstr ""
+
+#: lib/controllers/portal-tasks.php:129
+#: lib/templates/projects/phases/tasks/index.php:25
+msgid "None assigned"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:52 lib/controllers/portal-timing.php:94
+msgid "Jan"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:53 lib/controllers/portal-timing.php:95
+msgid "Feb"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:54 lib/controllers/portal-timing.php:96
+msgid "Mar"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:55 lib/controllers/portal-timing.php:97
+msgid "Apr"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:56 lib/controllers/portal-timing.php:98
+msgid "May"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:57 lib/controllers/portal-timing.php:99
+msgid "Jun"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:58 lib/controllers/portal-timing.php:100
+msgid "Jul"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:59 lib/controllers/portal-timing.php:101
+msgid "Aug"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:60 lib/controllers/portal-timing.php:102
+msgid "Sep"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:61 lib/controllers/portal-timing.php:103
+msgid "Oct"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:62 lib/controllers/portal-timing.php:104
+msgid "Nov"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:63 lib/controllers/portal-timing.php:105
+msgid "Dec"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:173
+msgid "days past project end date."
+msgstr ""
+
+#: lib/controllers/portal-timing.php:175
+msgid "days remaining"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:230
+msgid "Time Ellapsed"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:321
+#: lib/templates/projects/archive-portal_projects.php:86
+msgid "iCal Feed"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:460
+msgid "Project Start"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:464 lib/controllers/portal-timing.php:476
+#: lib/controllers/portal-timing.php:500 lib/controllers/portal-timing.php:501
+#: lib/controllers/portal-timing.php:530
+msgid "Client:"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:472
+msgid "Project End"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:497
+msgid "Project Milestone"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:500 lib/controllers/portal-timing.php:530
+#: lib/portal-helpers.php:719
+msgid "Project:"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:501
+msgid "Milestone: "
+msgstr ""
+
+#: lib/controllers/portal-timing.php:527
+msgid "Task Due"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:531 lib/portal-view.php:613
+msgid "Project"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:531 lib/models/portal-projects.php:81
+#: lib/pro/fields/overview-acf5.php:13 lib/pro/fields/overview.php:39
+#: lib/portal-admin.php:185
+msgid "Client"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:558 lib/portal-helpers.php:753
+#: lib/portal-view.php:671
+#: lib/templates/dashboard/components/calendar/index.php:29
+#: lib/templates/projects/archive-portal_projects.php:87 portal-license.php:209
+#: portal-settings.php:207
+msgid "Calendar"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:566
+msgid "Project Calendar"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:13 lib/pro/fields/overview-acf5.php:16
+#: lib/pro/fields/overview.php:42
+msgid "Name of the client or project"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:23 lib/pro/fields/overview-acf5.php:51
+#: lib/pro/fields/overview.php:12 lib/pro/fields/phases-acf5.php:195
+#: lib/pro/fields/phases.php:176
+msgid "Percent Complete"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:33 lib/pro/fields/overview-acf5.php:72
+#: lib/pro/portal-pro-shortcodes.php:696
+msgid "Project Details"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:39 lib/pro/fields/overview-acf5.php:78
+#: lib/pro/fields/overview.php:65
+#: lib/templates/projects/overview/description.php:5
+msgid "Project Description"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:48 lib/pro/fields/overview-acf5.php:99
+#: lib/pro/fields/overview.php:86 lib/portal-base-shortcodes.php:322
+#: lib/templates/dashboard/components/projects/table.php:69
+#: lib/templates/projects/overview/timing.php:17
+msgid "Start Date"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:57 lib/pro/fields/overview-acf5.php:108
+#: lib/pro/fields/overview.php:95 lib/portal-base-shortcodes.php:323
+#: lib/templates/dashboard/components/projects/table.php:75
+#: lib/templates/projects/overview/timing.php:23
+msgid "End Date"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:66 lib/lite/portal-lite-fields.php:72
+#: lib/lite/portal-lite-shortcodes.php:215 lib/pro/fields/overview-acf5.php:117
+#: lib/pro/fields/overview-acf5.php:123 lib/pro/fields/overview.php:104
+#: lib/pro/fields/overview.php:110 lib/pro/portal-pro-shortcodes.php:362
+#: lib/templates/projects/overview/documents/index.php:10
+#: lib/templates/projects/phases/documents/index.php:24
+#: lib/templates/projects/phases/index.php:75
+msgid "Documents"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:101 lib/lite/portal-lite-fields.php:105
+#: lib/lite/portal-lite-shortcodes.php:198 lib/lite/portal-lite-shortcodes.php:221
+#: lib/pro/fields/milestones-acf5.php:10 lib/pro/fields/milestones-acf5.php:14
+#: lib/pro/fields/milestones-acf5.php:431
+#: lib/pro/fields/milestones-acf5.php:435 lib/pro/fields/milestones.php:10
+#: lib/pro/fields/milestones.php:14 lib/pro/portal-pro-shortcodes.php:322
+#: lib/pro/portal-pro-shortcodes.php:370 lib/portal-view.php:241
+#: lib/portal-welcome.php:142 lib/portal-welcome.php:152
+#: lib/templates/projects/milestones/index.php:10
+msgid "Milestones"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:108 lib/pro/fields/milestones-acf5.php:17
+#: lib/pro/fields/milestones.php:17
+msgid ""
+"If desired, describe what will be completed at key points in the project."
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:112 lib/pro/fields/milestones-acf5.php:21
+#: lib/pro/fields/milestones.php:21
+msgid "Display Milestones"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:116 lib/pro/fields/milestones-acf5.php:25
+#: lib/pro/fields/milestones.php:25 lib/pro/fields/overview-acf5.php:44
+#: lib/pro/fields/overview-acf5.php:217 lib/pro/fields/overview-acf5.php:228
+#: lib/pro/fields/overview.php:205 lib/pro/fields/overview.php:217
+#: lib/pro/fields/overview.php:288 lib/pro/fields/phases.php:57
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:99
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:118
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:138
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:67
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:78
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:89
+#: lib/vendor/acf/master/core/controllers/field_group.php:463
+#: lib/vendor/acf/master/core/fields/page_link.php:137
+#: lib/vendor/acf/master/core/fields/page_link.php:158
+#: lib/vendor/acf/master/core/fields/post_object.php:339
+#: lib/vendor/acf/master/core/fields/post_object.php:360
+#: lib/vendor/acf/master/core/fields/select.php:223
+#: lib/vendor/acf/master/core/fields/select.php:242
+#: lib/vendor/acf/master/core/fields/taxonomy.php:498
+#: lib/vendor/acf/master/core/fields/user.php:331
+#: lib/vendor/acf/master/core/fields/wysiwyg.php:343
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:194
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:217
+#: lib/vendor/acf/repeater/views/options.php:174
+#: lib/vendor/acf/repeater/views/options.php:219 portal-settings.php:1153
+msgid "Yes"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:123 lib/pro/fields/milestones-acf5.php:32
+#: lib/pro/fields/milestones.php:32
+msgid "Milestone Frequency"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:148 lib/pro/fields/milestones-acf5.php:57
+#: lib/pro/fields/milestones.php:57
+msgid "1st Milestone"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:165 lib/lite/portal-lite-fields.php:244
+#: lib/lite/portal-lite-fields.php:407 lib/lite/portal-lite-fields.php:425
+#: lib/pro/fields/milestones-acf5.php:74 lib/pro/fields/milestones-acf5.php:153
+#: lib/pro/fields/milestones-acf5.php:316
+#: lib/pro/fields/milestones-acf5.php:334 lib/pro/fields/milestones.php:74
+#: lib/pro/fields/milestones.php:153 lib/pro/fields/milestones.php:316
+#: lib/pro/fields/milestones.php:334
+msgid "Note:"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:179 lib/pro/fields/milestones-acf5.php:88
+#: lib/pro/fields/milestones.php:88
+msgid ""
+"If you'd like to label key milestones please turn \"Display Milestones\" on "
+"(above)."
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:183 lib/lite/portal-lite-fields.php:262
+#: lib/lite/portal-lite-fields.php:341 lib/lite/portal-lite-fields.php:443
+#: lib/pro/fields/milestones-acf5.php:92 lib/pro/fields/milestones-acf5.php:171
+#: lib/pro/fields/milestones-acf5.php:250
+#: lib/pro/fields/milestones-acf5.php:352
+#: lib/pro/fields/milestones-acf5.php:492 lib/pro/fields/milestones.php:92
+#: lib/pro/fields/milestones.php:171 lib/pro/fields/milestones.php:250
+#: lib/pro/fields/milestones.php:352 lib/pro/fields/overview-acf5.php:129
+#: lib/pro/fields/overview.php:116 lib/pro/fields/phases-acf5.php:70
+#: lib/pro/fields/phases.php:38 lib/portal-admin.php:184
+#: lib/portal-base-shortcodes.php:324
+#: lib/vendor/acf/master/core/controllers/field_groups.php:147
+msgid "Title"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:206 lib/lite/portal-lite-fields.php:285
+#: lib/lite/portal-lite-fields.php:364 lib/lite/portal-lite-fields.php:471
+#: lib/pro/fields/milestones-acf5.php:115
+#: lib/pro/fields/milestones-acf5.php:194
+#: lib/pro/fields/milestones-acf5.php:273
+#: lib/pro/fields/milestones-acf5.php:380
+#: lib/pro/fields/milestones-acf5.php:510 lib/pro/fields/milestones.php:115
+#: lib/pro/fields/milestones.php:194 lib/pro/fields/milestones.php:273
+#: lib/pro/fields/milestones.php:380 lib/pro/fields/overview-acf5.php:149
+#: lib/pro/fields/overview.php:136 lib/pro/fields/phases-acf5.php:239
+#: lib/pro/fields/phases.php:220 lib/pro/fields/teams-acf5.php:8
+#: lib/pro/fields/teams.php:8 lib/templates/projects/phases/index.php:128
+msgid "Description"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:227 lib/pro/fields/milestones-acf5.php:136
+#: lib/pro/fields/milestones.php:136
+msgid "2nd Milestone"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:306 lib/pro/fields/milestones-acf5.php:215
+#: lib/pro/fields/milestones.php:215
+msgid "3rd Milestone"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:323 lib/pro/fields/milestones-acf5.php:232
+#: lib/pro/fields/milestones.php:232
+msgid "Note: "
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:385 lib/pro/fields/milestones-acf5.php:294
+#: lib/pro/fields/milestones.php:294
+msgid "4th Milestone"
+msgstr ""
+
+#: lib/lite/portal-lite-fields.php:439 lib/pro/fields/milestones-acf5.php:348
+#: lib/pro/fields/milestones.php:348
+msgid ""
+"These fields are only available if you select \"Fifths\" on the milestone "
+"frequency field."
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:46 lib/lite/portal-lite-shortcodes.php:112
+#: lib/pro/portal-pro-shortcodes.php:86 lib/pro/portal-pro-shortcodes.php:211
+msgid "No project with that ID"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:165 lib/pro/portal-pro-shortcodes.php:289
+msgid "Insert a Project Overview"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:166 lib/pro/portal-pro-shortcodes.php:290
+msgid "Select a project below to add it to your post or page."
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:172 lib/pro/portal-pro-shortcodes.php:296
+msgid "Full Project"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:172 lib/pro/portal-pro-shortcodes.php:296
+msgid "Portion of Project"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:178 lib/lite/portal-lite-shortcodes.php:214
+#: lib/pro/fields/overview-acf5.php:9 lib/pro/fields/overview.php:8
+#: lib/pro/fields/overview.php:33 lib/pro/portal-pro-shortcodes.php:302
+#: lib/pro/portal-pro-shortcodes.php:361 lib/portal-view.php:235
+#: lib/templates/projects/archive-portal_projects.php:55
+#: lib/vendor/acf/master/core/controllers/field_groups.php:398
+msgid "Overview"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:181 lib/pro/portal-pro-shortcodes.php:305
+msgid "Show Overview"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:182 lib/pro/portal-pro-shortcodes.php:306
+msgid "No Overview"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:188 lib/pro/portal-pro-shortcodes.php:312
+msgid "Progress Bar"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:191 lib/pro/portal-pro-shortcodes.php:315
+msgid "Show Progress Bar"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:192 lib/pro/portal-pro-shortcodes.php:316
+msgid "No Progress Bar"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:201 lib/lite/portal-lite-shortcodes.php:224
+#: lib/pro/portal-pro-shortcodes.php:325 lib/pro/portal-pro-shortcodes.php:373
+msgid "Condensed"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:202 lib/lite/portal-lite-shortcodes.php:223
+#: lib/pro/portal-pro-shortcodes.php:326 lib/pro/portal-pro-shortcodes.php:372
+msgid "Full Width"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:203 lib/pro/portal-pro-shortcodes.php:327
+msgid "No Milestones"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:211 lib/pro/portal-pro-shortcodes.php:358
+msgid "Display"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:216 lib/pro/portal-pro-shortcodes.php:363
+msgid "Overall Progress"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:225 lib/pro/fields/overview.php:338
+#: lib/pro/fields/phases-acf5.php:45 lib/pro/portal-pro-shortcodes.php:374
+#: lib/pro/portal-pro-shortcodes.php:384
+#: lib/vendor/acf/master/core/fields/taxonomy.php:374
+#: lib/vendor/acf/master/core/fields/taxonomy.php:383
+msgid "None"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:233 lib/pro/portal-pro-shortcodes.php:401
+msgid "Insert Project"
+msgstr ""
+
+#: lib/lite/portal-lite-shortcodes.php:233 lib/pro/portal-pro-shortcodes.php:401
+#: lib/portal-base-shortcodes.php:342
+#: lib/templates/global/document-status-modal.php:86
+#: lib/templates/projects/overview/documents/single/modal.php:80
+#: lib/templates/projects/phases/documents/modal.php:80
+msgid "Cancel"
+msgstr ""
+
+#: lib/models/portal-notifications.php:62
+msgid "Add Notification"
+msgstr ""
+
+#: lib/models/portal-notifications.php:63
+msgid "Delete Notification"
+msgstr ""
+
+#: lib/models/portal-notifications.php:75
+msgid "Notify when..."
+msgstr ""
+
+#: lib/models/portal-notifications.php:78
+msgid "...a task is completed on the frontend."
+msgstr ""
+
+#: lib/models/portal-notifications.php:79
+msgid "...a task is due today."
+msgstr ""
+
+#: lib/models/portal-notifications.php:80
+msgid "...a task is overdue."
+msgstr ""
+
+#: lib/models/portal-notifications.php:81
+msgid "...a project is completed."
+msgstr ""
+
+#: lib/models/portal-notifications.php:82
+msgid "...a new comment is left on a project."
+msgstr ""
+
+#: lib/models/portal-notifications.php:83
+msgid "...a user is assigned to a project"
+msgstr ""
+
+#: lib/models/portal-notifications.php:94
+msgid "Admin Title"
+msgstr ""
+
+#: lib/models/portal-notifications.php:100
+#, php-format
+msgid "%s Notifications"
+msgstr ""
+
+#: lib/models/portal-notifications.php:123
+msgid "New feed"
+msgstr ""
+
+#: lib/models/portal-notifications.php:282 lib/models/portal-notifications.php:310
+#: lib/models/portal-projects.php:25
+msgid "View Project"
+msgstr ""
+
+#: lib/models/portal-notifications.php:308
+msgid "View comment here"
+msgstr ""
+
+#: lib/models/portal-post-status.php:54 lib/models/portal-projects.php:313
+#: lib/models/portal-projects.php:408 lib/pro/portal-pro-shortcodes.php:392
+#: lib/pro/portal-pro-shortcodes.php:552 lib/portal-base-shortcodes.php:307
+#: lib/portal-view.php:574 lib/templates/dashboard/components/tasks/summary.php:37
+#: lib/templates/dashboard/components/teams/index.php:48
+#: lib/templates/projects/milestones/index.php:11
+#: lib/templates/projects/phases/index.php:21
+#: lib/templates/projects/phases/index.php:107
+msgid "Completed"
+msgstr ""
+
+#: lib/models/portal-post-status.php:58 lib/models/portal-projects.php:412
+msgid "On Hold"
+msgstr ""
+
+#: lib/models/portal-post-status.php:62 lib/models/portal-projects.php:416
+msgid "Canceled"
+msgstr ""
+
+#: lib/models/portal-post-status.php:73
+#, php-format
+msgid "Custom <span class=\"count\">(%s)</span>"
+msgid_plural "Custom <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/models/portal-priorities.php:6 lib/pro/fields/overview-acf5.php:91
+#: lib/pro/fields/overview.php:78
+msgid "Normal"
+msgstr ""
+
+#: lib/models/portal-priorities.php:12 lib/pro/fields/overview-acf5.php:92
+#: lib/pro/fields/overview.php:79
+msgid "Low"
+msgstr ""
+
+#: lib/models/portal-priorities.php:18 lib/pro/fields/overview-acf5.php:93
+#: lib/pro/fields/overview.php:80 lib/vendor/acf/master/acf.php:758
+msgid "Medium"
+msgstr ""
+
+#: lib/models/portal-priorities.php:24 lib/pro/fields/overview-acf5.php:94
+#: lib/pro/fields/overview.php:81
+msgid "High"
+msgstr ""
+
+#: lib/models/portal-project-types.php:17
+msgctxt "Taxonomy General Name"
+msgid "Project Types"
+msgstr ""
+
+#: lib/models/portal-project-types.php:18
+msgctxt "Taxonomy Singular Name"
+msgid "Project Type"
+msgstr ""
+
+#: lib/models/portal-project-types.php:19 lib/portal-admin.php:188
+msgid "Project Types"
+msgstr ""
+
+#: lib/models/portal-project-types.php:20
+msgid "All Project Types"
+msgstr ""
+
+#: lib/models/portal-project-types.php:21
+msgid "Parent Project Type"
+msgstr ""
+
+#: lib/models/portal-project-types.php:22
+msgid "Parent Project Type:"
+msgstr ""
+
+#: lib/models/portal-project-types.php:23
+msgid "New Project Type"
+msgstr ""
+
+#: lib/models/portal-project-types.php:24
+msgid "Add Project Type"
+msgstr ""
+
+#: lib/models/portal-project-types.php:25
+msgid "Edit Project Type"
+msgstr ""
+
+#: lib/models/portal-project-types.php:26
+msgid "Update Project Type"
+msgstr ""
+
+#: lib/models/portal-project-types.php:27 lib/models/portal-project-types.php:61
+msgid "Separate items with commas"
+msgstr ""
+
+#: lib/models/portal-project-types.php:28
+msgid "Search Project Types"
+msgstr ""
+
+#: lib/models/portal-project-types.php:29
+msgid "Add or remove project types"
+msgstr ""
+
+#: lib/models/portal-project-types.php:30 lib/models/portal-project-types.php:64
+msgid "Choose from the most used items"
+msgstr ""
+
+#: lib/models/portal-project-types.php:31 lib/models/portal-project-types.php:65
+msgid "Not Found"
+msgstr ""
+
+#: lib/models/portal-project-types.php:51
+msgctxt "Taxonomy General Name"
+msgid "Project Status"
+msgstr ""
+
+#: lib/models/portal-project-types.php:52
+msgctxt "Taxonomy Singular Name"
+msgid "Project Status"
+msgstr ""
+
+#: lib/models/portal-project-types.php:53 lib/portal-base-shortcodes.php:302
+msgid "Project Status"
+msgstr ""
+
+#: lib/models/portal-project-types.php:54
+msgid "All Project Statuses"
+msgstr ""
+
+#: lib/models/portal-project-types.php:55
+msgid "Parent Project Status"
+msgstr ""
+
+#: lib/models/portal-project-types.php:56
+msgid "Parent Project Status:"
+msgstr ""
+
+#: lib/models/portal-project-types.php:57
+msgid "New Project Status"
+msgstr ""
+
+#: lib/models/portal-project-types.php:58
+msgid "Add Project Status"
+msgstr ""
+
+#: lib/models/portal-project-types.php:59
+msgid "Edit Project Status"
+msgstr ""
+
+#: lib/models/portal-project-types.php:60
+msgid "Update Project Status"
+msgstr ""
+
+#: lib/models/portal-project-types.php:62
+msgid "Search Project Statuses"
+msgstr ""
+
+#: lib/models/portal-project-types.php:63
+msgid "Add or remove project statues"
+msgstr ""
+
+#: lib/models/portal-projects.php:21
+msgctxt "Post Type Singular Name"
+msgid "Project"
+msgstr ""
+
+#: lib/models/portal-projects.php:22 lib/models/portal-projects.php:44
+#: lib/pro/portal-pro-shortcodes.php:551 lib/portal-base-shortcodes.php:151
+#: lib/portal-view.php:573
+msgid "Projects"
+msgstr ""
+
+#: lib/models/portal-projects.php:23
+msgid "Parent Project:"
+msgstr ""
+
+#: lib/models/portal-projects.php:26
+msgid "Add New Project"
+msgstr ""
+
+#: lib/models/portal-projects.php:27
+msgid "New Project"
+msgstr ""
+
+#: lib/models/portal-projects.php:28 lib/templates/global/header/edit.php:5
+msgid "Edit Project"
+msgstr ""
+
+#: lib/models/portal-projects.php:29
+msgid "Update Project"
+msgstr ""
+
+#: lib/models/portal-projects.php:30
+msgid "Search Projects"
+msgstr ""
+
+#: lib/models/portal-projects.php:31 lib/portal-base-shortcodes.php:245
+#: lib/portal-base-shortcodes.php:266
+msgid "No projects found"
+msgstr ""
+
+#: lib/models/portal-projects.php:32
+msgid "No projects found in Trash"
+msgstr ""
+
+#: lib/models/portal-projects.php:43
+msgid "portal_projects"
+msgstr ""
+
+#: lib/models/portal-projects.php:82 lib/models/portal-teams.php:85
+msgid "Users"
+msgstr ""
+
+#: lib/models/portal-projects.php:83 lib/portal-admin.php:186
+msgid "% Complete"
+msgstr ""
+
+#: lib/models/portal-projects.php:84
+msgid "Time Elapsed"
+msgstr ""
+
+#: lib/models/portal-projects.php:328 lib/templates/global/search-form.php:12
+msgid "All Types"
+msgstr ""
+
+#: lib/models/portal-teams.php:20
+msgctxt "Post Type General Name"
+msgid "Teams"
+msgstr ""
+
+#: lib/models/portal-teams.php:21
+msgctxt "Post Type Singular Name"
+msgid "Team"
+msgstr ""
+
+#: lib/models/portal-teams.php:22 lib/models/portal-teams.php:44
+#: lib/pro/fields/teams-acf5.php:4 lib/pro/fields/teams.php:4
+#: lib/portal-helpers.php:749 lib/portal-view.php:665
+msgid "Teams"
+msgstr ""
+
+#: lib/models/portal-teams.php:23
+msgid "Parent Team:"
+msgstr ""
+
+#: lib/models/portal-teams.php:24
+msgid "All Teams"
+msgstr ""
+
+#: lib/models/portal-teams.php:25
+msgid "View Team"
+msgstr ""
+
+#: lib/models/portal-teams.php:26
+msgid "Add New Team"
+msgstr ""
+
+#: lib/models/portal-teams.php:27
+msgid "New Team"
+msgstr ""
+
+#: lib/models/portal-teams.php:28
+msgid "Edit Team"
+msgstr ""
+
+#: lib/models/portal-teams.php:29
+msgid "Update Team"
+msgstr ""
+
+#: lib/models/portal-teams.php:30
+msgid "Search Teams"
+msgstr ""
+
+#: lib/models/portal-teams.php:31
+msgid "No teams found"
+msgstr ""
+
+#: lib/models/portal-teams.php:32
+msgid "No teams found in Trash"
+msgstr ""
+
+#: lib/models/portal-teams.php:43
+msgid "portal_teams"
+msgstr ""
+
+#: lib/models/portal-teams.php:84 lib/pro/portal-teams.php:356
+#: lib/templates/dashboard/components/teams/widget.php:9
+msgid "Team"
+msgstr ""
+
+#: lib/models/portal-teams.php:86
+#: lib/templates/dashboard/components/projects/my-projects.php:23
+msgid "Active Projects"
+msgstr ""
+
+#: lib/models/portal-teams.php:143
+msgid "Team Thumbnail"
+msgstr ""
+
+#: lib/pro/fields/milestones-acf5.php:445
+msgid "Add Milestone"
+msgstr ""
+
+#: lib/pro/fields/milestones-acf5.php:449
+msgid "Occurs"
+msgstr ""
+
+#: lib/pro/fields/milestones-acf5.php:529 lib/pro/fields/milestones.php:500
+msgid "Date"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:26 lib/pro/fields/overview.php:52
+msgid "Client / Project Logo"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:28 lib/pro/fields/overview.php:54
+msgid "Logo to appear on the project page"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:39 lib/pro/fields/overview.php:283
+#: lib/pro/fields/phases.php:51
+msgid "Automatic Progress"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:42 lib/pro/fields/overview.php:286
+msgid "Automatically calculate progress based on completion of phases (below)"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:87 lib/pro/fields/overview.php:74
+msgid "Priority"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:145 lib/pro/fields/overview.php:132
+msgid ""
+"Attach this document to a project phase.<br> Save and reload to refresh list "
+"of phases."
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:160 lib/pro/fields/overview.php:148
+#: lib/vendor/acf/master/core/fields/file.php:19
+msgid "File"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:169 lib/pro/fields/overview.php:157
+msgid "URL"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:175
+msgid "An uploaded file will be displayed instead of a link"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:183 lib/pro/fields/overview.php:171
+#: lib/templates/global/document-status-modal.php:24
+#: lib/templates/projects/overview/documents/single/modal.php:17
+#: lib/templates/projects/phases/documents/modal.php:17
+msgid "Status"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:192 lib/pro/fields/overview.php:180
+msgid "No Status"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:202 lib/pro/fields/overview.php:190
+msgid "Add Document"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:206 lib/pro/fields/overview.php:194
+#: lib/portal-welcome.php:145
+msgid "Access"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:212 lib/pro/fields/overview.php:200
+msgid "Hide from search engines"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:215 lib/pro/fields/overview.php:203
+msgid "This will add a \"noindex\" tag to your project pages."
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:224 lib/pro/fields/overview.php:212
+msgid "Restrict access to specific users"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:235 lib/pro/fields/overview.php:224
+msgid "Assigned Teams"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:259 lib/pro/fields/overview.php:248
+msgid "Assigned Users"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:270 lib/pro/fields/overview.php:259
+#: lib/vendor/acf/master/core/fields/user.php:18
+#: lib/vendor/acf/master/core/views/meta_box_location.php:94
+msgid "User"
+msgstr ""
+
+#: lib/pro/fields/overview-acf5.php:290 lib/pro/fields/overview.php:273
+msgid "Add User"
+msgstr ""
+
+#: lib/pro/fields/overview.php:163
+msgid "Uploads display over links."
+msgstr ""
+
+#: lib/pro/fields/overview.php:213
+msgid ""
+"Only users who have been assigned to the project or are project managers can "
+"access it."
+msgstr ""
+
+#: lib/pro/fields/overview.php:277
+msgid "Progress Settings"
+msgstr ""
+
+#: lib/pro/fields/overview.php:295 lib/pro/fields/phases-acf5.php:13
+msgid "Automatic Phase Progress"
+msgstr ""
+
+#: lib/pro/fields/overview.php:298
+msgid "Automatically calculate phase completion based on tasks"
+msgstr ""
+
+#: lib/pro/fields/overview.php:318 lib/pro/fields/phases-acf5.php:25
+msgid "Progress Type"
+msgstr ""
+
+#: lib/pro/fields/overview.php:321 lib/pro/fields/phases-acf5.php:28
+msgid "Would you like to weight phases or track via hours?"
+msgstr ""
+
+#: lib/pro/fields/overview.php:335 lib/pro/fields/phases-acf5.php:42
+msgid "Weighting"
+msgstr ""
+
+#: lib/pro/fields/overview.php:336 lib/pro/fields/phases-acf5.php:43
+#: lib/pro/fields/phases-acf5.php:164 lib/pro/fields/phases.php:145
+msgid "Percentage"
+msgstr ""
+
+#: lib/pro/fields/overview.php:337 lib/pro/fields/phases-acf5.php:44
+#: lib/pro/fields/phases-acf5.php:133 lib/pro/fields/phases.php:114
+msgid "Hours"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:9 lib/pro/fields/phases-acf5.php:64
+#: lib/pro/fields/phases.php:10 lib/pro/fields/phases.php:32
+#: lib/pro/portal-pro-shortcodes.php:364 lib/portal-view.php:247
+#: lib/portal-welcome.php:143 lib/portal-welcome.php:166
+#: lib/templates/projects/phases/index.php:16 portal-license.php:207
+#: portal-settings.php:205
+msgid "Phases"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:16
+msgid "Automatically calculate phase percentage complete based on tasks"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:53
+msgid "Expand tasks by default"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:83 lib/pro/fields/phases.php:64
+msgid "Weight"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:86 lib/pro/fields/phases.php:67
+msgid ""
+"Specify how much shorter this phase is compared to the rest, i.e. selecting "
+"95% will reduce this phases contribution to the total completion by 5%"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:136 lib/pro/fields/phases.php:117
+msgid "Enter the total number of hours this phase will take"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:167 lib/pro/fields/phases.php:148
+msgid "Enter the percentage of the project this phase represents."
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:249 lib/pro/fields/phases.php:230
+#: lib/pro/portal-pro-shortcodes.php:343 lib/pro/portal-pro-shortcodes.php:365
+#: lib/pro/portal-pro-shortcodes.php:379 lib/portal-helpers.php:754
+#: lib/portal-view.php:677 lib/portal-welcome.php:144 lib/portal-welcome.php:180
+#: lib/templates/projects/phases/index.php:81
+#: lib/templates/projects/phases/tasks/index.php:29
+msgid "Tasks"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:269 lib/pro/fields/phases.php:250
+msgid "Assigned to"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:281 lib/pro/fields/phases.php:262
+msgid "Due Date"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:323 lib/pro/fields/phases.php:304
+msgid "Add Task"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:327 lib/pro/fields/phases.php:308
+msgid "Unique Comment Key"
+msgstr ""
+
+#: lib/pro/fields/phases-acf5.php:342 lib/pro/fields/phases.php:323
+msgid "Add Phase"
+msgstr ""
+
+#: lib/pro/fields/phases.php:14
+msgid "Break projects into multiple phases with specific tasks."
+msgstr ""
+
+#: lib/pro/fields/phases.php:20
+msgid "Auto expand task lists"
+msgstr ""
+
+#: lib/pro/fields/phases.php:22
+msgid "Task lists are collapsed by default to save space."
+msgstr ""
+
+#: lib/pro/fields/phases.php:54
+msgid "Automatically calculate percentage complete based on tasks"
+msgstr ""
+
+#: lib/pro/fields/teams-acf5.php:17 lib/pro/fields/teams.php:17
+#: lib/pro/portal-teams.php:357
+msgid "Team Members"
+msgstr ""
+
+#: lib/pro/fields/teams-acf5.php:23 lib/pro/fields/teams.php:23
+msgid "Member"
+msgstr ""
+
+#: lib/pro/fields/teams-acf5.php:42 lib/pro/fields/teams.php:37
+msgid "Add Team Member"
+msgstr ""
+
+#: lib/pro/portal-ajax.php:111 lib/pro/portal-ajax.php:114
+msgid " status has been changed to "
+msgstr ""
+
+#: lib/pro/portal-ajax.php:111 lib/pro/portal-ajax.php:114
+msgid " by "
+msgstr ""
+
+#: lib/pro/portal-documents.php:58
+msgid "Link"
+msgstr ""
+
+#: lib/pro/portal-documents.php:61
+msgid "Text Document"
+msgstr ""
+
+#: lib/pro/portal-documents.php:64
+msgid "PDF Document"
+msgstr ""
+
+#: lib/pro/portal-documents.php:67 lib/vendor/acf/master/core/fields/image.php:19
+msgid "Image"
+msgstr ""
+
+#: lib/pro/portal-documents.php:70
+msgid "Design File"
+msgstr ""
+
+#: lib/pro/portal-documents.php:73
+#: lib/vendor/acf/master/core/controllers/addons.php:242
+#: lib/vendor/acf/master/core/controllers/field_groups.php:421
+#: lib/vendor/acf/master/core/controllers/field_groups.php:430
+#: lib/vendor/acf/master/core/controllers/field_groups.php:438
+#: lib/vendor/acf/master/core/controllers/field_groups.php:446
+#: lib/vendor/acf/master/core/controllers/field_groups.php:454
+msgid "Download"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:166
+#: lib/vendor/acf/project-phases/acf-project-phases-v4.php:23
+#: lib/vendor/acf/project-phases/acf-project-phases-v5.php:32
+msgid "Project Phases"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:189 lib/portal-helpers.php:416
+#: lib/templates/projects/custom-template-single.php:65
+msgid "This Project Requires a Login"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:193 lib/templates/global/login.php:36
+#: lib/templates/projects/custom-template-single.php:69
+msgid "You don't have permission to access this project"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:198 lib/portal-helpers.php:422
+#: lib/templates/projects/custom-template-single.php:74
+msgid "This Project is Password Protected"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:336
+msgid "Show Phases"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:337
+msgid "No Phases"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:346 lib/pro/portal-pro-shortcodes.php:381
+#: lib/pro/portal-pro-shortcodes.php:391
+msgid "All Tasks"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:347
+msgid "Incomplete Only"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:348
+msgid "Completed Only"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:349
+msgid "No Tasks"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:382
+msgid "Completed Tasks"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:383
+msgid "Incomplete Tasks"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:389
+msgid "Show"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:393
+msgid "Incomplete"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:553 lib/portal-base-shortcodes.php:306
+#: lib/portal-view.php:575 lib/portal-widgets.php:79
+#: lib/templates/dashboard/components/teams/index.php:47 portal-license.php:642
+#: portal-settings.php:640
+msgid "Active"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:554 lib/portal-view.php:576
+msgid "Types"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:639 lib/pro/portal-pro-shortcodes.php:915
+#: lib/templates/parts/tasks.php:39
+#: lib/templates/projects/overview/documents/single/modal.php:80
+#: lib/templates/projects/phases/documents/modal.php:80
+#: lib/templates/projects/phases/tasks/single/entry.php:33
+#: lib/templates/projects/phases/tasks/tasks-loop.php:40
+msgid "update"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:639 lib/pro/portal-pro-shortcodes.php:922
+#: lib/templates/parts/tasks.php:39
+#: lib/templates/projects/phases/tasks/single/entry.php:50
+#: lib/templates/projects/phases/tasks/tasks-loop.php:40
+msgid "complete"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:715
+msgid "Tasks<br>Assigned"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:719
+msgid "Tasks<br>Started"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:723
+msgid "Tasks<br>Complete"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:866
+msgid "Due"
+msgstr ""
+
+#: lib/pro/portal-pro-shortcodes.php:881
+msgid "There are no tasks assigned to you at this time."
+msgstr ""
+
+#: lib/pro/portal-teams.php:58
+msgid "You're not currently assigned to any teams"
+msgstr ""
+
+#: lib/pro/portal-teams.php:192
+msgid "No users assigned to this team"
+msgstr ""
+
+#: lib/pro/portal-teams.php:351 lib/templates/projects/archive-portal_projects.php:66
+msgid "My Teams"
+msgstr ""
+
+#: lib/pro/portal-teams.php:358
+msgid "Current Projects"
+msgstr ""
+
+#: lib/portal-admin.php:21
+msgid "Invoices"
+msgstr ""
+
+#: lib/portal-admin.php:43 lib/portal-admin.php:69
+msgid ""
+"You can send invoices and collect payments through yoop by integrating "
+"with"
+msgstr ""
+
+#: lib/portal-admin.php:91
+msgid "Calendar Localization"
+msgstr ""
+
+#: lib/portal-admin.php:176
+msgid "Projects Assigned to"
+msgstr ""
+
+#: lib/portal-admin.php:190
+msgid "Last Updated"
+msgstr ""
+
+#: lib/portal-admin.php:255 lib/portal-helpers.php:711 lib/portal-helpers.php:748
+#: lib/portal-helpers.php:765 lib/portal-view.php:264 lib/portal-view.php:659
+#: lib/templates/global/header/user.php:13
+msgid "Dashboard"
+msgstr ""
+
+#: lib/portal-admin.php:264 lib/portal-admin.php:265 lib/portal-welcome.php:70
+#: lib/vendor/acf/master/core/controllers/addons.php:42
+#: lib/vendor/acf/master/core/controllers/field_groups.php:306
+msgid "Add-ons"
+msgstr ""
+
+#: lib/portal-admin.php:277
+msgid "yoop Add-ons"
+msgstr ""
+
+#: lib/portal-admin.php:298
+msgid "No items"
+msgstr ""
+
+#: lib/portal-admin.php:326
+msgid ""
+"Please update the Project yoop Front End Uploader add-on to the most "
+"recent version."
+msgstr ""
+
+#: lib/portal-assets.php:235
+msgid "more"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:128
+msgid "Please Login to View Projects"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:178
+msgid "updated "
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:195
+msgid "No progress recorded thus far"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:289
+msgid "Project Listing"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:290
+msgid "Select from the options below to output a list of projects."
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:293
+msgid "Project Type"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:305 lib/portal-widgets.php:78
+#: lib/vendor/acf/master/core/controllers/field_group.php:763
+#: lib/vendor/acf/master/core/controllers/field_group.php:784
+#: lib/vendor/acf/master/core/controllers/field_group.php:791
+#: lib/vendor/acf/master/core/fields/file.php:186
+#: lib/vendor/acf/master/core/fields/image.php:177
+#: lib/vendor/acf/master/core/fields/page_link.php:109
+#: lib/vendor/acf/master/core/fields/post_object.php:286
+#: lib/vendor/acf/master/core/fields/post_object.php:310
+#: lib/vendor/acf/master/core/fields/relationship.php:582
+#: lib/vendor/acf/master/core/fields/relationship.php:606
+#: lib/vendor/acf/master/core/fields/user.php:276
+msgid "All"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:314 lib/portal-widgets.php:84
+msgid "Only display projects current user has permission to access"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:318
+msgid "Order By"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:321
+msgid "Creation Date"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:329
+msgid "Projects to show"
+msgstr ""
+
+#: lib/portal-base-shortcodes.php:342
+msgid "Insert Project List"
+msgstr ""
+
+#: lib/portal-helpers.php:428 lib/portal-helpers.php:432
+msgid "This Area Requires a Login"
+msgstr ""
+
+#: lib/portal-helpers.php:650
+msgid "Something went wrong, please try again."
+msgstr ""
+
+#: lib/portal-helpers.php:687
+msgid "Last logged in at"
+msgstr ""
+
+#: lib/portal-helpers.php:689
+msgid "Hasn't logged in recently..."
+msgstr ""
+
+#: lib/portal-helpers.php:715
+msgid "Teams:"
+msgstr ""
+
+#: lib/portal-helpers.php:724
+msgid "Team:"
+msgstr ""
+
+#: lib/portal-init.php:21
+msgid "Add to the yoop single project menu"
+msgstr ""
+
+#: lib/portal-init.php:22
+msgid "Add to the yoop dashboard menu"
+msgstr ""
+
+#: lib/portal-init.php:23
+msgid "Links in the yoop footer"
+msgstr ""
+
+#: lib/portal-migrations.php:9
+msgid "All projects migrated successfully, thank you!"
+msgstr ""
+
+#: lib/portal-migrations.php:56
+msgid "Project yoop needs to migrate your Lite projects to premium."
+msgstr ""
+
+#: lib/portal-migrations.php:421
+msgid "yoop has successfully updated your projects."
+msgstr ""
+
+#: lib/portal-view.php:253 lib/templates/projects/phases/discussions/index.php:5
+#: lib/vendor/acf/master/core/views/meta_box_options.php:100
+msgid "Discussion"
+msgstr ""
+
+#: lib/portal-view.php:275
+msgid "Back"
+msgstr ""
+
+#: lib/portal-view.php:394 lib/templates/global/header/user.php:6
+msgid "Hello"
+msgstr ""
+
+#: lib/portal-view.php:562
+msgid "Not Started"
+msgstr ""
+
+#: lib/portal-view.php:565
+msgid "In Progress"
+msgstr ""
+
+#: lib/portal-view.php:568 lib/portal-widgets.php:80
+#: lib/templates/dashboard/components/projects/table.php:54
+#: lib/templates/dashboard/components/tasks/summary.php:50
+#: lib/templates/projects/overview/index.php:31
+#: lib/templates/projects/overview/short-progress.php:15
+#: lib/vendor/acf/slider/acf-slider-v4.php:182
+#: lib/vendor/acf/slider/acf-slider-v5.php:151
+msgid "Complete"
+msgstr ""
+
+#: lib/portal-view.php:610
+msgid "Recently Updated"
+msgstr ""
+
+#: lib/portal-view.php:614
+#: lib/templates/dashboard/components/projects/table.php:57
+#: lib/templates/dashboard/components/tasks/summary.php:47
+#: lib/templates/dashboard/components/tasks/summary.php:53
+#: lib/templates/projects/activity/index.php:24
+#: lib/templates/projects/overview/short-progress.php:18
+msgid "Progress"
+msgstr ""
+
+#: lib/portal-view.php:622
+msgid "Updated on"
+msgstr ""
+
+#: lib/portal-view.php:635
+msgid "View"
+msgstr ""
+
+#: lib/portal-welcome.php:54 lib/portal-welcome.php:115 lib/portal-welcome.php:130
+#: lib/vendor/acf/master/core/controllers/field_groups.php:220
+msgid "Getting Started"
+msgstr ""
+
+#: lib/portal-welcome.php:55 lib/portal-welcome.php:62 lib/portal-welcome.php:116
+#: lib/vendor/acf/master/core/controllers/field_groups.php:218
+msgid "Resources"
+msgstr ""
+
+#: lib/portal-welcome.php:56 lib/portal-welcome.php:68 lib/portal-welcome.php:117
+msgid "Support"
+msgstr ""
+
+#: lib/portal-welcome.php:57 lib/portal-welcome.php:69
+msgid "Your Account"
+msgstr ""
+
+#: lib/portal-welcome.php:64
+msgid "Need more help? Use this quick links to get to where you need to go."
+msgstr ""
+
+#: lib/portal-welcome.php:71
+msgid "yoop Blog"
+msgstr ""
+
+#: lib/portal-welcome.php:72
+msgid "Projects Dashboard"
+msgstr ""
+
+#: lib/portal-welcome.php:75
+msgid "Signup for Update Notifications"
+msgstr ""
+
+#: lib/portal-welcome.php:118
+msgid "My Account"
+msgstr ""
+
+#: lib/portal-welcome.php:125
+msgid "Welcome to Project yoop"
+msgstr ""
+
+#: lib/portal-welcome.php:127
+msgid ""
+"Thank you for using Project yoop! We truly believe that it can help you\n"
+"    impress your clients, save time and allow you to bill more. We've got "
+"some great information to help you get started."
+msgstr ""
+
+#: lib/portal-welcome.php:132
+msgid "Watch our demo video to get an idea of how to use Project yoop!"
+msgstr ""
+
+#: lib/portal-welcome.php:138
+msgid ""
+"Project yoop takes a unique approach to project management and "
+"communication. All projects can be broken down into four key\n"
+"        areas:"
+msgstr ""
+
+#: lib/portal-welcome.php:155
+msgid ""
+"Milestones are events that happen in predictable times throughout a project. "
+"They can coinside with phases, but they don't always.\n"
+"        Some projects phases don't happen sequentially, thus the phases can "
+"be indpenendant. The most common use of milestones is billing.\n"
+"        When a project has been completed to a specific point, you issue a "
+"new bill."
+msgstr ""
+
+#: lib/portal-welcome.php:160
+msgid ""
+"Milestones will automatically be indicated as completed once project "
+"progress meets or passes their location."
+msgstr ""
+
+#: lib/portal-welcome.php:169
+msgid ""
+"Phases are the core segments of a project. If you think about any project it "
+"can be broken down into specific segments. For example: plan, execute, "
+"review. Each phase has\n"
+"        key tasks associated with them which when completed contribute to "
+"the overall completion of the project."
+msgstr ""
+
+#: lib/portal-welcome.php:173
+msgid ""
+"You can also have discussion on phases, keeping key communication specific "
+"to the relevant area."
+msgstr ""
+
+#: lib/portal-welcome.php:183
+msgid ""
+"Phases often have specific tasks associated with them. A discovery phase "
+"might contain tasks for a kick-off meeting, research, reporting and "
+"presenting to the client. Each task\n"
+"        is large enough where you might make significant progress on it "
+"without completing. Because most tasks are not binrary (completed or not) "
+"you can specify how close to completion you are,\n"
+"        keeping the client more informed."
+msgstr ""
+
+#: lib/portal-welcome.php:189
+msgid ""
+"Tasks can also be assigned to specific users or the clients themselves. If "
+"necissary, you can also assign a due date to the task."
+msgstr ""
+
+#: lib/portal-welcome.php:194
+msgid "Access Control"
+msgstr ""
+
+#: lib/portal-welcome.php:197
+msgid ""
+"yoop has sophisticated access control. There are five different user "
+"levels:"
+msgstr ""
+
+#: lib/portal-welcome.php:200
+msgid "Administrators / Editors"
+msgstr ""
+
+#: lib/portal-welcome.php:201
+msgid "These users can create, edit, publish and delete ALL projects."
+msgstr ""
+
+#: lib/portal-welcome.php:203
+msgid "Project Managers"
+msgstr ""
+
+#: lib/portal-welcome.php:204
+msgid ""
+"These users can create, edit and manage projects but can't access the rest "
+"of the site."
+msgstr ""
+
+#: lib/portal-welcome.php:206
+msgid "Project Authors"
+msgstr ""
+
+#: lib/portal-welcome.php:207
+msgid ""
+"These users can create, edit and manage their OWN projects but can't access "
+"any other projects."
+msgstr ""
+
+#: lib/portal-welcome.php:209
+msgid "Project Owners"
+msgstr ""
+
+#: lib/portal-welcome.php:210
+msgid "These users can only see and edit projects they've been assigned to."
+msgstr ""
+
+#: lib/portal-welcome.php:212
+msgid "Subscribers"
+msgstr ""
+
+#: lib/portal-welcome.php:213
+msgid ""
+"These users can only see projects they've been assigned to. They can't edit "
+"or create projects."
+msgstr ""
+
+#: lib/portal-welcome.php:217
+msgid ""
+"\n"
+"        yoop can have public or private projects. To make a project "
+"private simply turn on \"restrict access to specific users\" in the "
+"\"Access\" tab within a specific project.\n"
+"        After you have restricted access to specific users you will have the "
+"option to add individual users or teams to the project. At this point the "
+"only people who will be able to see\n"
+"        or access the project are those assigned to it directly, as part of "
+"a team or have permission to see all projects (editors, administrators and "
+"project managers.)"
+msgstr ""
+
+#: lib/templates/dashboard/components/calendar/ical.php:7
+#: lib/templates/dashboard/components/calendar/ical.php:14
+msgid "Invalid iCalender feed"
+msgstr ""
+
+#: lib/templates/dashboard/components/calendar/ical.php:35
+#: lib/templates/dashboard/components/calendar/ical.php:36
+msgid "Projects: "
+msgstr ""
+
+#: lib/templates/dashboard/components/calendar/index.php:40
+msgid "You do not have access to this calendar"
+msgstr ""
+
+#: lib/templates/dashboard/components/projects/my-projects.php:9
+msgid "Your Projects"
+msgstr ""
+
+#: lib/templates/dashboard/components/projects/my-projects.php:24
+msgid "Completed Projects"
+msgstr ""
+
+#: lib/templates/dashboard/components/projects/table.php:38
+msgid "Updated on "
+msgstr ""
+
+#: lib/templates/dashboard/components/tasks/dashboard.php:6
+#: lib/templates/dashboard/components/tasks/summary.php:63
+msgid "Your Tasks"
+msgstr "Your Tasks (Test)"
+
+#: lib/templates/dashboard/components/tasks/index.php:29
+msgid "Upcoming Tasks"
+msgstr ""
+
+#: lib/templates/dashboard/components/tasks/index.php:40
+msgid "You do not have access to these tasks"
+msgstr ""
+
+#: lib/templates/dashboard/components/tasks/summary.php:29
+msgid "Assigned"
+msgstr ""
+
+#: lib/templates/dashboard/components/tasks/summary.php:33
+msgid "Started"
+msgstr ""
+
+#: lib/templates/dashboard/components/teams/index.php:46
+#: lib/templates/dashboard/components/teams/sidebar.php:30
+#: lib/templates/projects/archive-portal_projects.php:75
+msgid "Members"
+msgstr ""
+
+#: lib/templates/dashboard/components/teams/index.php:64
+msgid "No teams found."
+msgstr ""
+
+#: lib/templates/dashboard/components/teams/sidebar.php:43
+msgid "No users assigned to this team."
+msgstr ""
+
+#: lib/templates/dashboard/components/teams/single.php:26
+msgid "Active Projects Assigned to"
+msgstr ""
+
+#: lib/templates/dashboard/components/teams/single.php:48
+msgid "You don't have access to this team."
+msgstr ""
+
+#: lib/templates/dashboard/footer.php:14
+msgid "home"
+msgstr ""
+
+#: lib/templates/dashboard/footer.php:18
+msgid "dashboard"
+msgstr ""
+
+#: lib/templates/email/link.php:23
+msgid "Click here to view."
+msgstr ""
+
+#: lib/templates/email/progress.php:58
+msgid "Current Status"
+msgstr ""
+
+#: lib/templates/global/document-status-modal.php:14
+#: lib/templates/projects/overview/documents/single/modal.php:10
+#: lib/templates/projects/phases/documents/modal.php:10
+msgid "Update Status"
+msgstr ""
+
+#: lib/templates/global/document-status-modal.php:19
+#: lib/templates/projects/overview/documents/single/modal.php:13
+#: lib/templates/projects/phases/documents/modal.php:13
+msgid "Document Status Updated"
+msgstr ""
+
+#: lib/templates/global/document-status-modal.php:20
+#: lib/templates/projects/overview/documents/single/modal.php:14
+#: lib/templates/projects/phases/documents/modal.php:14
+msgid "Notifications have been sent."
+msgstr ""
+
+#: lib/templates/global/document-status-modal.php:45
+#: lib/templates/projects/overview/documents/single/modal.php:39
+#: lib/templates/projects/phases/documents/modal.php:39
+msgid "Notify"
+msgstr ""
+
+#: lib/templates/global/document-status-modal.php:52
+#: lib/templates/projects/overview/documents/single/modal.php:46
+#: lib/templates/projects/phases/documents/modal.php:46
+msgid "Specific Users"
+msgstr ""
+
+#: lib/templates/global/document-status-modal.php:69
+#: lib/templates/global/document-status-modal.php:70
+msgid "portal-du-doc-"
+msgstr ""
+
+#: lib/templates/global/document-status-modal.php:86
+#: lib/vendor/acf/master/core/api.php:1171
+msgid "Update"
+msgstr ""
+
+#: lib/templates/global/header/navigation.php:29
+#: lib/templates/global/navigation-off.php:36
+msgid "Logout"
+msgstr ""
+
+#: lib/templates/global/login.php:21
+msgid "Incorrect username or password."
+msgstr ""
+
+#: lib/templates/global/login.php:21
+msgid "Please try again"
+msgstr ""
+
+#: lib/templates/global/login.php:43
+msgid "Lost your password?"
+msgstr ""
+
+#: lib/templates/global/search-form.php:6
+msgid "Enter keywords..."
+msgstr "Enter Lots of Words"
+
+#: lib/templates/projects/discussion/discussion-loop.php:4
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: lib/templates/projects/discussion/discussion-loop.php:23
+#: lib/templates/projects/discussion/discussion-loop.php:64
+msgid "Project Discussion"
+msgstr ""
+
+#: lib/templates/projects/discussion/discussion-loop.php:25
+#, php-format
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/templates/projects/discussion/discussion-loop.php:33
+#: lib/templates/projects/discussion/discussion-loop.php:54
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr ""
+
+#: lib/templates/projects/discussion/discussion-loop.php:37
+#: lib/templates/projects/discussion/discussion-loop.php:57
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: lib/templates/projects/discussion/discussion-loop.php:64
+msgid "No discussions posted at this time"
+msgstr ""
+
+#: lib/templates/projects/discussion/discussion-loop.php:71
+msgid "Discussions are closed."
+msgstr ""
+
+#: lib/templates/projects/milestones/dep/index.php:3
+msgid "Overall Project Completion"
+msgstr ""
+
+#: lib/templates/projects/overview/documents/documents-loop.php:26
+msgid "No documents at this time."
+msgstr ""
+
+#: lib/templates/projects/overview/documents/single/document.php:30
+#: lib/templates/projects/phases/documents/single.php:31
+msgid "portal-project-"
+msgstr ""
+
+#: lib/templates/projects/overview/short-progress.php:13
+msgid "Project Progress"
+msgstr ""
+
+#: lib/templates/projects/overview/summary.php:18
+msgid "Approved Documents"
+msgstr ""
+
+#: lib/templates/projects/overview/summary.php:25
+msgid "Complete Milestones"
+msgstr ""
+
+#: lib/templates/projects/overview/summary.php:32
+msgid "Complete Phases"
+msgstr ""
+
+#: lib/templates/projects/overview/summary.php:39
+msgid "Complete Tasks"
+msgstr ""
+
+#: lib/templates/projects/overview/summary.php:76
+#: lib/templates/projects/phases/index.php:112
+msgid "Remaining"
+msgstr ""
+
+#: lib/templates/projects/phases/discussions/index.php:6
+#, php-format
+msgid "<b>%s</b> Response"
+msgid_plural "<b>%s</b> Responses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/templates/projects/phases/documents/index.php:16
+#, php-format
+msgid ""
+"<b class='doc-approved-count'>%s</b> of <b class='doc-total-count'>%s</b> "
+"Approved"
+msgstr ""
+
+#: lib/templates/projects/phases/documents/index.php:22
+msgid "No Documents"
+msgstr ""
+
+#: lib/templates/projects/phases/documents/index.php:42
+msgid "No documents attached to this phase."
+msgstr ""
+
+#: lib/templates/projects/phases/index.php:19
+msgid "Collapse Discussions"
+msgstr ""
+
+#: lib/templates/projects/phases/index.php:19
+msgid "Expand Discussions"
+msgstr ""
+
+#: lib/templates/projects/phases/index.php:75
+msgid "Document"
+msgstr ""
+
+#: lib/templates/projects/phases/index.php:86
+msgid "Responses"
+msgstr ""
+
+#: lib/vendor/acf/collapse/acf_repeater_collapser.php:41
+msgid "Collapse All Rows"
+msgstr ""
+
+#: lib/vendor/acf/collapse/acf_repeater_collapser.php:42
+msgid "Collapse Row"
+msgstr ""
+
+#: lib/vendor/acf/collapse/acf_repeater_collapser.php:43
+msgid "Expand All Rows"
+msgstr ""
+
+#: lib/vendor/acf/collapse/acf_repeater_collapser.php:44
+msgid "Expand Row"
+msgstr ""
+
+#: lib/vendor/acf/collapse/acf_repeater_collapser.php:45
+msgid "Expand All"
+msgstr ""
+
+#: lib/vendor/acf/collapse/acf_repeater_collapser.php:46
+msgid "Collapse All"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:22
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:22
+msgid "Lite WYSIWYG"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:23
+#: lib/vendor/acf/master/core/fields/_base.php:124
+#: lib/vendor/acf/master/core/views/meta_box_location.php:74
+msgid "Basic"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:73
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:56
+#: lib/vendor/acf/master/core/fields/checkbox.php:166
+#: lib/vendor/acf/master/core/fields/color_picker.php:89
+#: lib/vendor/acf/master/core/fields/email.php:106
+#: lib/vendor/acf/master/core/fields/number.php:116
+#: lib/vendor/acf/master/core/fields/radio.php:196
+#: lib/vendor/acf/master/core/fields/select.php:197
+#: lib/vendor/acf/master/core/fields/text.php:116
+#: lib/vendor/acf/master/core/fields/textarea.php:103
+#: lib/vendor/acf/master/core/fields/true_false.php:94
+#: lib/vendor/acf/master/core/fields/wysiwyg.php:286
+msgid "Default Value"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:87
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:62
+msgid "Teeny Mode"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:88
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:63
+msgid "Whether to output the minimal editor configuration used in PressThis"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:100
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:119
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:139
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:68
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:79
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:90
+#: lib/vendor/acf/master/core/controllers/field_group.php:462
+#: lib/vendor/acf/master/core/fields/page_link.php:138
+#: lib/vendor/acf/master/core/fields/page_link.php:159
+#: lib/vendor/acf/master/core/fields/post_object.php:340
+#: lib/vendor/acf/master/core/fields/post_object.php:361
+#: lib/vendor/acf/master/core/fields/select.php:224
+#: lib/vendor/acf/master/core/fields/select.php:243
+#: lib/vendor/acf/master/core/fields/taxonomy.php:499
+#: lib/vendor/acf/master/core/fields/user.php:332
+#: lib/vendor/acf/master/core/fields/wysiwyg.php:344
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:195
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:218
+#: lib/vendor/acf/repeater/views/options.php:175
+#: lib/vendor/acf/repeater/views/options.php:220 portal-settings.php:1152
+msgid "No"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:108
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:74
+#: lib/vendor/acf/master/core/fields/wysiwyg.php:333
+msgid "Show Media Upload Buttons?"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:127
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:84
+msgid "Distraction Free Writing"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:128
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:85
+msgid "Whether to replace the default fullscreen editor with DFW"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:179
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:124
+msgid ""
+"Error initalizing editor, please ensure you still have internet connectivity "
+"and are still logged in."
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:180
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:125
+msgid "Content saved."
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v4.php:213
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:158
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:55
+msgid "Done"
+msgstr ""
+
+#: lib/vendor/acf/lite-wysiwyg/lite-wysiwyg-v5.php:73
+msgid "Media Buttons"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:500
+msgid "Field&nbsp;Groups"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:501
+#: lib/vendor/acf/master/core/controllers/field_groups.php:213
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:502
+msgid "Add New"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:503
+msgid "Add New Field Group"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:504
+msgid "Edit Field Group"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:505
+msgid "New Field Group"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:506
+msgid "View Field Group"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:507
+msgid "Search Field Groups"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:508
+msgid "No Field Groups found"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:509
+msgid "No Field Groups found in Trash"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:594
+#: lib/vendor/acf/master/core/views/meta_box_options.php:99
+msgid "Custom Fields"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:612 lib/vendor/acf/master/acf.php:615
+msgid "Field group updated."
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:613
+msgid "Custom field updated."
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:614
+msgid "Custom field deleted."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: lib/vendor/acf/master/acf.php:617
+#, php-format
+msgid "Field group restored to revision from %s"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:618
+msgid "Field group published."
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:619
+msgid "Field group saved."
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:620
+msgid "Field group submitted."
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:621
+msgid "Field group scheduled for."
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:622
+msgid "Field group draft updated."
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:757
+msgid "Thumbnail"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:759
+msgid "Large"
+msgstr ""
+
+#: lib/vendor/acf/master/acf.php:760
+msgid "Full"
+msgstr ""
+
+#: lib/vendor/acf/master/core/actions/export.php:33
+msgid "No ACF groups selected"
+msgstr ""
+
+#: lib/vendor/acf/master/core/api.php:1172
+msgid "Post updated"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:130
+#: lib/vendor/acf/master/core/controllers/field_groups.php:428
+msgid "Repeater Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:131
+msgid "Create infinite rows of repeatable data with this versatile interface!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:137
+#: lib/vendor/acf/master/core/controllers/field_groups.php:436
+msgid "Gallery Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:138
+msgid "Create image galleries in a simple and intuitive interface!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:144
+#: lib/vendor/acf/master/core/controllers/field_groups.php:444
+msgid "Options Page"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:145
+msgid "Create global data to use throughout your website!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:151
+msgid "Flexible Content Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:152
+msgid "Create unique designs with a flexible content layout manager!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:161
+msgid "Gravity Forms Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:162
+msgid "Creates a select field populated with Gravity Forms!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:168
+msgid "Date & Time Picker"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:169
+msgid "jQuery date & time picker"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:175
+msgid "Google Map Extended"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:176
+msgid "Find addresses and coordinates of a desired location"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:182
+msgid "Contact Form 7 Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:183
+msgid "Assign one or more contact form 7 forms to a post"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:193
+msgid "Advanced Custom Fields Add-Ons"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:196
+msgid ""
+"The following Add-ons are available to increase the functionality of the "
+"Advanced Custom Fields plugin."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:197
+msgid ""
+"Each Add-on can be installed as a separate plugin (receives updates) or "
+"included in your theme (does not receive updates)."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:219
+#: lib/vendor/acf/master/core/controllers/addons.php:240
+msgid "Installed"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/addons.php:221
+msgid "Purchase & Install"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:50
+#: lib/vendor/acf/master/core/controllers/export.php:159
+msgid "Export"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:216
+msgid "Export Field Groups"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:221
+msgid "Field Groups"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:222
+msgid "Select the field groups to be exported"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:239
+#: lib/vendor/acf/master/core/controllers/export.php:252
+msgid "Export to XML"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:242
+#: lib/vendor/acf/master/core/controllers/export.php:267
+msgid "Export to PHP"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:253
+msgid ""
+"ACF will create a .xml export file which is compatible with the native WP "
+"import plugin."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:254
+msgid ""
+"Imported field groups <b>will</b> appear in the list of editable field "
+"groups. This is useful for migrating fields groups between Wp websites."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:256
+msgid "Select field group(s) from the list and click \"Export XML\""
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:257
+msgid "Save the .xml file when prompted"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:258
+msgid "Navigate to Tools &raquo; Import and select WordPress"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:259
+msgid "Install WP import plugin if prompted"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:260
+msgid "Upload and import your exported .xml file"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:261
+msgid "Select your user and ignore Import Attachments"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:262
+msgid "That's it! Happy WordPressing"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:268
+msgid "ACF will create the PHP code to include in your theme."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:269
+#: lib/vendor/acf/master/core/controllers/export.php:310
+msgid ""
+"Registered field groups <b>will not</b> appear in the list of editable field "
+"groups. This is useful for including fields in themes."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:270
+#: lib/vendor/acf/master/core/controllers/export.php:311
+msgid ""
+"Please note that if you export and register field groups within the same WP, "
+"you will see duplicate fields on your edit screens. To fix this, please move "
+"the original field group to the trash or remove the code from your functions."
+"php file."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:272
+msgid "Select field group(s) from the list and click \"Create PHP\""
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:273
+#: lib/vendor/acf/master/core/controllers/export.php:302
+msgid "Copy the PHP code generated"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:274
+#: lib/vendor/acf/master/core/controllers/export.php:303
+msgid "Paste into your functions.php file"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:275
+#: lib/vendor/acf/master/core/controllers/export.php:304
+msgid "To activate any Add-ons, edit and use the code in the first few lines."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:295
+msgid "Export Field Groups to PHP"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:300
+#: lib/vendor/acf/master/core/fields/tab.php:65
+msgid "Instructions"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:309
+msgid "Notes"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:316
+msgid "Include in theme"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:317
+msgid ""
+"The Advanced Custom Fields plugin can be included within a theme. To do so, "
+"move the ACF plugin inside your theme and add the following code to your "
+"functions.php file:"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:323
+msgid ""
+"To remove all visual interfaces from the ACF plugin, you can use a constant "
+"to enable lite mode. Add the following code to your functions.php file <b>"
+"before</b> the include_once code:"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:331
+msgid "Back to export"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/export.php:400
+msgid "No field groups were selected"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:359
+msgid "Move to trash. Are you sure?"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:360
+msgid "checked"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:361
+msgid "No toggle fields available"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:362
+msgid "Field group title is required"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:363
+msgid "copy"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:364
+#: lib/vendor/acf/master/core/views/meta_box_location.php:62
+#: lib/vendor/acf/master/core/views/meta_box_location.php:159
+msgid "or"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:365
+#: lib/vendor/acf/master/core/controllers/field_group.php:397
+#: lib/vendor/acf/master/core/controllers/field_group.php:459
+#: lib/vendor/acf/master/core/controllers/field_groups.php:148
+msgid "Fields"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:366
+msgid "Parent fields"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:367
+msgid "Sibling fields"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:368
+msgid "Hide / Show All"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:398
+msgid "Location"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:399
+msgid "Options"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:461
+msgid "Show Field Key:"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:635
+msgid "Front Page"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:636
+msgid "Posts Page"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:637
+msgid "Top Level Page (parent of 0)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:638
+msgid "Parent Page (has children)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:639
+msgid "Child Page (has parent)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:647
+msgid "Default Template"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:729
+msgid "Published"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:730
+msgid "Pending Review"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:731
+msgid "Draft"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:732
+msgid "Future"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:733
+msgid "Private"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:734
+msgid "Revision"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:735
+msgid "Trash"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_group.php:748
+msgid "Super Admin"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:215
+#: lib/vendor/acf/master/core/controllers/field_groups.php:252
+msgid "Changelog"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:216
+#, php-format
+msgid "See what's new in %1$sversion %2$s%3$s"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:221
+msgid "Field Types"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:222
+msgid "Functions"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:223
+msgid "Actions"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:224
+#: lib/vendor/acf/master/core/fields/relationship.php:625
+msgid "Filters"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:225
+msgid "'How to' guides"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:226
+msgid "Tutorials"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:231
+msgid "Created by"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:243
+msgid "Welcome to Advanced Custom Fields"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:244
+msgid "Thank you for updating to the latest version!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:244
+#, php-format
+msgid ""
+"ACF %s is more polished and enjoyable than ever before. We hope you like it."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:251
+msgid "What’s New"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:254
+msgid "Download Add-ons"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:308
+msgid "Activation codes have grown into plugins!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:309
+msgid ""
+"Add-ons are now activated by downloading and installing individual plugins. "
+"Although these plugins will not be hosted on the wordpress.org repository, "
+"each Add-on will continue to receive updates in the usual way."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:315
+msgid "All previous Add-ons have been successfully installed"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:319
+msgid "This website uses premium Add-ons which need to be downloaded"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:319
+msgid "Download your activated Add-ons"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:324
+msgid ""
+"This website does not use premium Add-ons and will not be affected by this "
+"change."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:334
+msgid "Easier Development"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:336
+msgid "New Field Types"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:338
+msgid "Taxonomy Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:339
+msgid "User Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:340
+msgid "Email Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:341
+msgid "Password Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:343
+msgid "Custom Field Types"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:344
+msgid ""
+"Creating your own field type has never been easier! Unfortunately, version 3 "
+"field types are not compatible with version 4."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:345
+#, php-format
+msgid ""
+"Migrating your field types is easy, please %sfollow this tutorial%s to learn "
+"more."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:347
+msgid "Actions &amp; Filters"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:348
+#, php-format
+msgid ""
+"All actions & filters have received a major facelift to make customizing ACF "
+"even easier! Please %sread this guide%s to find the updated naming "
+"convention."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:350
+msgid "Preview draft is now working!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:351
+msgid "This bug has been squashed along with many other little critters!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:351
+msgid "See the full changelog"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:355
+msgid "Important"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:357
+msgid "Database Changes"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:358
+msgid ""
+"Absolutely <strong>no</strong> changes have been made to the database "
+"between versions 3 and 4. This means you can roll back to version 3 without "
+"any issues."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:360
+msgid "Potential Issues"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:361
+#, php-format
+msgid ""
+"Due to the sizable changes surrounding Add-ons, field types and "
+"action/filters, your website may not operate correctly. It is important that "
+"you read the full %sMigrating from v3 to v4%s guide to view the full list of "
+"changes."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:364
+msgid "Really Important!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:364
+#, php-format
+msgid ""
+"If you updated the ACF plugin without prior knowledge of such changes, "
+"please roll back to the latest %sversion 3%s of this plugin."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:369
+msgid "Thank You"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:370
+msgid ""
+"A <strong>BIG</strong> thank you to everyone who has helped test the version "
+"4 beta and for all the support I have received."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:371
+msgid "Without you all, this release would not have been possible!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:375
+msgid "Changelog for"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:392
+msgid "Learn more"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:400
+msgid ""
+"Previously, all Add-ons were unlocked via an activation code (purchased from "
+"the ACF Add-ons store). New to v4, all Add-ons act as separate plugins which "
+"need to be individually downloaded, installed and updated."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:402
+msgid ""
+"This page will assist you in downloading and installing each available Add-"
+"on."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:404
+msgid "Available Add-ons"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:406
+msgid "The following Add-ons have been detected as activated on this website."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:420
+msgid "Activation Code"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:452
+msgid "Flexible Content"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:462
+msgid "Installation"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:464
+msgid "For each Add-on available, please perform the following:"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:466
+msgid "Download the Add-on plugin (.zip file) to your desktop"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:467
+#, php-format
+msgid "Navigate to %sPlugins > Add New > Upload%s"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:468
+msgid "Use the uploader to browse, select and install your Add-on (.zip file)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:469
+msgid ""
+"Once the plugin has been uploaded and installed, click the 'Activate Plugin' "
+"link"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:470
+msgid "The Add-on is now installed and activated!"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/field_groups.php:484
+msgid "Awesome. Let's get to work"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/input.php:63
+msgid "Expand Details"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/input.php:64
+msgid "Collapse Details"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/input.php:67
+msgid "Validation Failed. One or more fields below are required."
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/upgrade.php:77
+msgid "Upgrade"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/upgrade.php:599
+msgid "Modifying field group options 'show on page'"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/upgrade.php:653
+msgid "Modifying field option 'taxonomy'"
+msgstr ""
+
+#: lib/vendor/acf/master/core/controllers/upgrade.php:750
+msgid "Moving user custom fields from wp_options to wp_usermeta"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:19
+#: lib/vendor/acf/master/core/fields/taxonomy.php:475
+msgid "Checkbox"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:20
+#: lib/vendor/acf/master/core/fields/radio.php:19
+#: lib/vendor/acf/master/core/fields/select.php:19
+#: lib/vendor/acf/master/core/fields/true_false.php:20
+msgid "Choice"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:146
+#: lib/vendor/acf/master/core/fields/radio.php:147
+#: lib/vendor/acf/master/core/fields/select.php:177
+msgid "Choices"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:147
+#: lib/vendor/acf/master/core/fields/select.php:178
+msgid "Enter each choice on a new line."
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:148
+#: lib/vendor/acf/master/core/fields/select.php:179
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:149
+#: lib/vendor/acf/master/core/fields/radio.php:153
+#: lib/vendor/acf/master/core/fields/select.php:180
+msgid "red : Red"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:149
+#: lib/vendor/acf/master/core/fields/radio.php:154
+#: lib/vendor/acf/master/core/fields/select.php:180
+msgid "blue : Blue"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:167
+#: lib/vendor/acf/master/core/fields/select.php:198
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:183
+#: lib/vendor/acf/master/core/fields/message.php:20
+#: lib/vendor/acf/master/core/fields/radio.php:212
+#: lib/vendor/acf/master/core/fields/tab.php:20
+#: lib/vendor/acf/repeater/repeater.php:23
+#: lib/vendor/acf/repeater/views/options.php:30
+#: lib/vendor/acf/repeater/views/options.php:356
+msgid "Layout"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:194
+#: lib/vendor/acf/master/core/fields/radio.php:223
+msgid "Vertical"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/checkbox.php:195
+#: lib/vendor/acf/master/core/fields/radio.php:224
+msgid "Horizontal"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/color_picker.php:19
+msgid "Color Picker"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/color_picker.php:20
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:20
+#: lib/vendor/acf/master/core/fields/google-map.php:19
+#: lib/vendor/acf/slider/acf-slider-v4.php:24
+msgid "jQuery"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:19
+msgid "Date Picker"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:56
+msgid "Today"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:59
+msgid "Show a different month"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:126
+msgid "Save format"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:127
+msgid ""
+"This format will determine the value saved to the database and returned via "
+"the API"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:128
+msgid "\"yymmdd\" is the most versatile save format. Read more about"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:128
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:144
+msgid "jQuery date formats"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:142
+msgid "Display format"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:143
+msgid "This format will be seen by the user when entering a value"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:144
+msgid ""
+"\"dd/mm/yy\" or \"mm/dd/yy\" are the most used display formats. Read more "
+"about"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/date_picker/date_picker.php:158
+msgid "Week Starts On"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/dummy.php:19
+msgid "Dummy"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/email.php:107
+#: lib/vendor/acf/master/core/fields/number.php:117
+#: lib/vendor/acf/master/core/fields/text.php:117
+#: lib/vendor/acf/master/core/fields/textarea.php:104
+#: lib/vendor/acf/master/core/fields/wysiwyg.php:287
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/email.php:123
+#: lib/vendor/acf/master/core/fields/number.php:133
+#: lib/vendor/acf/master/core/fields/password.php:105
+#: lib/vendor/acf/master/core/fields/text.php:131
+#: lib/vendor/acf/master/core/fields/textarea.php:118
+msgid "Placeholder Text"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/email.php:124
+#: lib/vendor/acf/master/core/fields/number.php:134
+#: lib/vendor/acf/master/core/fields/password.php:106
+#: lib/vendor/acf/master/core/fields/text.php:132
+#: lib/vendor/acf/master/core/fields/textarea.php:119
+msgid "Appears within the input"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/email.php:138
+#: lib/vendor/acf/master/core/fields/number.php:148
+#: lib/vendor/acf/master/core/fields/password.php:120
+#: lib/vendor/acf/master/core/fields/text.php:146
+msgid "Prepend"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/email.php:139
+#: lib/vendor/acf/master/core/fields/number.php:149
+#: lib/vendor/acf/master/core/fields/password.php:121
+#: lib/vendor/acf/master/core/fields/text.php:147
+msgid "Appears before the input"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/email.php:153
+#: lib/vendor/acf/master/core/fields/number.php:163
+#: lib/vendor/acf/master/core/fields/password.php:135
+#: lib/vendor/acf/master/core/fields/text.php:161
+msgid "Append"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/email.php:154
+#: lib/vendor/acf/master/core/fields/number.php:164
+#: lib/vendor/acf/master/core/fields/password.php:136
+#: lib/vendor/acf/master/core/fields/text.php:162
+msgid "Appears after the input"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:20
+#: lib/vendor/acf/master/core/fields/image.php:20
+#: lib/vendor/acf/master/core/fields/wysiwyg.php:20
+#: lib/vendor/acf/project-phases/acf-project-phases-v4.php:24
+#: lib/vendor/acf/project-users/acf-project-users-v4.php:24
+msgid "Content"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:26
+msgid "Select File"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:27
+msgid "Edit File"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:28
+msgid "Update File"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:29
+#: lib/vendor/acf/master/core/fields/image.php:30
+msgid "Uploaded to this post"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:113
+msgid "Size"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:123
+msgid "No File Selected"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:123
+msgid "Add File"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:153
+#: lib/vendor/acf/master/core/fields/image.php:125
+#: lib/vendor/acf/master/core/fields/taxonomy.php:523
+msgid "Return Value"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:164
+msgid "File Object"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:165
+msgid "File URL"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:166
+msgid "File ID"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:175
+#: lib/vendor/acf/master/core/fields/image.php:165
+msgid "Library"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/file.php:187
+#: lib/vendor/acf/master/core/fields/image.php:178
+msgid "Uploaded to post"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:18
+msgid "Google Map"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:33
+msgid "Locating"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:34
+msgid "Sorry, this browser does not support geolocation"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:120
+msgid "Clear location"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:125
+msgid "Find current location"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:126
+msgid "Search for address..."
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:162
+msgid "Center"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:163
+msgid "Center the initial map"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:199
+msgid "Zoom"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:200
+msgid "Set the initial zoom level"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:217
+msgid "Height"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/google-map.php:218
+msgid "Customise the map height"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:27
+msgid "Select Image"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:28
+msgid "Edit Image"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:29
+msgid "Update Image"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:90
+msgid "Remove"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:97
+msgid "No image selected"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:97
+msgid "Add Image"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:126
+#: lib/vendor/acf/master/core/fields/relationship.php:557
+msgid "Specify the returned value on front end"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:136
+msgid "Image Object"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:137
+msgid "Image URL"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:138
+msgid "Image ID"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:146
+msgid "Preview Size"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:147
+msgid "Shown when entering data"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/image.php:166
+msgid "Limit the media library choice"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/message.php:71
+msgid "Text &amp; HTML entered here will appear inline with the fields"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/message.php:72
+msgid "Please note that all text will first be passed through the wp function "
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/number.php:19
+msgid "Number"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/number.php:178
+msgid "Minimum Value"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/number.php:194
+msgid "Maximum Value"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/number.php:210
+msgid "Step Size"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/page_link.php:18
+msgid "Page Link"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/page_link.php:19
+#: lib/vendor/acf/master/core/fields/post_object.php:19
+#: lib/vendor/acf/master/core/fields/relationship.php:19
+#: lib/vendor/acf/master/core/fields/taxonomy.php:19
+#: lib/vendor/acf/master/core/fields/user.php:19
+msgid "Relational"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/page_link.php:103
+#: lib/vendor/acf/master/core/fields/post_object.php:280
+#: lib/vendor/acf/master/core/fields/relationship.php:576
+#: lib/vendor/acf/master/core/fields/relationship.php:655
+#: lib/vendor/acf/master/core/views/meta_box_location.php:75
+msgid "Post Type"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/page_link.php:127
+#: lib/vendor/acf/master/core/fields/post_object.php:329
+#: lib/vendor/acf/master/core/fields/select.php:214
+#: lib/vendor/acf/master/core/fields/taxonomy.php:489
+#: lib/vendor/acf/master/core/fields/user.php:322
+msgid "Allow Null?"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/page_link.php:148
+#: lib/vendor/acf/master/core/fields/post_object.php:350
+#: lib/vendor/acf/master/core/fields/select.php:233
+msgid "Select multiple values?"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/post_object.php:18
+msgid "Post Object"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/post_object.php:194
+#: lib/vendor/acf/master/core/fields/relationship.php:164
+msgid "(no title)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/post_object.php:304
+#: lib/vendor/acf/master/core/fields/relationship.php:600
+msgid "Filter from Taxonomy"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/radio.php:18
+msgid "Radio Button"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/radio.php:105
+#: lib/vendor/acf/master/core/views/meta_box_location.php:91
+msgid "Other"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/radio.php:148
+msgid "Enter your choices one per line"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/radio.php:150
+msgid "Red"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/radio.php:151
+msgid "Blue"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/radio.php:175
+msgid "Add 'other' choice to allow for custom values"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/radio.php:187
+msgid "Save 'other' values to the field's choices"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:18
+msgid "Relationship"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:29
+msgid "Maximum values reached ( {max} values )"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:451
+msgid "Search..."
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:462
+msgid "Filter by post type"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:556
+msgid "Return Format"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:567
+msgid "Post Objects"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:568
+msgid "Post IDs"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:634
+msgid "Search"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:635
+msgid "Post Type Select"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:643
+msgid "Elements"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:644
+msgid "Selected elements will be displayed in each result"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:653
+#: lib/vendor/acf/master/core/views/meta_box_options.php:106
+msgid "Featured Image"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:654
+msgid "Post Title"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/relationship.php:666
+msgid "Maximum posts"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/select.php:18
+#: lib/vendor/acf/master/core/fields/select.php:109
+#: lib/vendor/acf/master/core/fields/taxonomy.php:480
+#: lib/vendor/acf/master/core/fields/user.php:313
+msgid "Select"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/tab.php:19
+msgid "Tab"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/tab.php:68
+msgid ""
+"Use \"Tab Fields\" to better organize your edit screen by grouping your "
+"fields together under separate tab headings."
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/tab.php:69
+msgid ""
+"All the fields following this \"tab field\" (or until another \"tab field\" "
+"is defined) will be grouped together."
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/tab.php:70
+msgid "Use multiple tabs to divide your fields into sections."
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:18
+#: lib/vendor/acf/master/core/fields/taxonomy.php:430
+msgid "Taxonomy"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:464
+#: lib/vendor/acf/master/core/fields/user.php:298
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:77
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:158
+#: lib/vendor/acf/repeater/views/options.php:55
+#: lib/vendor/acf/repeater/views/options.php:132
+msgid "Field Type"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:474
+#: lib/vendor/acf/master/core/fields/user.php:307
+msgid "Multiple Values"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:476
+#: lib/vendor/acf/master/core/fields/user.php:309
+msgid "Multi Select"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:478
+#: lib/vendor/acf/master/core/fields/user.php:311
+msgid "Single Value"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:479
+msgid "Radio Buttons"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:508
+msgid "Load & Save Terms to Post"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:516
+msgid ""
+"Load value based on the post's terms and update the post's terms on save"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:533
+msgid "Term Object"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/taxonomy.php:534
+msgid "Term ID"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/text.php:19
+msgid "Text"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/text.php:176
+#: lib/vendor/acf/master/core/fields/textarea.php:164
+msgid "Formatting"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/text.php:177
+#: lib/vendor/acf/master/core/fields/textarea.php:165
+msgid "Affects value on front end"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/text.php:186
+#: lib/vendor/acf/master/core/fields/textarea.php:174
+msgid "No formatting"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/text.php:187
+#: lib/vendor/acf/master/core/fields/textarea.php:176
+msgid "Convert HTML into tags"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/text.php:195
+#: lib/vendor/acf/master/core/fields/textarea.php:133
+msgid "Character Limit"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/text.php:196
+#: lib/vendor/acf/master/core/fields/textarea.php:134
+msgid "Leave blank for no limit"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/textarea.php:19
+msgid "Text Area"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/textarea.php:148
+msgid "Rows"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/textarea.php:149
+msgid "Sets the textarea height"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/textarea.php:175
+msgid "Convert new lines into &lt;br /&gt; tags"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/true_false.php:19
+msgid "True / False"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/true_false.php:80
+msgid "eg. Show extra content"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/user.php:271
+msgid "Filter by role"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/wysiwyg.php:19
+msgid "Wysiwyg Editor"
+msgstr ""
+
+#: lib/vendor/acf/master/core/fields/wysiwyg.php:301
+msgid "Toolbar"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:24
+#: lib/vendor/acf/repeater/views/options.php:22
+msgid "New Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:58
+msgid "Field type does not exist"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:74
+#: lib/vendor/acf/repeater/views/options.php:52
+msgid "Field Order"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:75
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:126
+#: lib/vendor/acf/repeater/views/options.php:53
+#: lib/vendor/acf/repeater/views/options.php:101
+msgid "Field Label"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:76
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:142
+#: lib/vendor/acf/repeater/views/options.php:54
+#: lib/vendor/acf/repeater/views/options.php:117
+msgid "Field Name"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:78
+msgid "Field Key"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:90
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:105
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:108
+#: lib/vendor/acf/repeater/views/options.php:79
+#: lib/vendor/acf/repeater/views/options.php:82
+msgid "Edit this Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:109
+#: lib/vendor/acf/repeater/views/options.php:84
+msgid "Duplicate this Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:109
+#: lib/vendor/acf/repeater/views/options.php:84
+msgid "Duplicate"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:110
+#: lib/vendor/acf/repeater/views/options.php:85
+msgid "Delete this Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:110
+#: lib/vendor/acf/repeater/views/options.php:85 portal-license.php:676
+#: portal-settings.php:674
+msgid "Delete"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:127
+msgid "This is the name which will appear on the EDIT page"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:143
+#: lib/vendor/acf/repeater/views/options.php:118
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:172
+#: lib/vendor/acf/repeater/views/options.php:147
+msgid "Field Instructions"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:173
+msgid "Instructions for authors. Shown when submitting data"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:186
+#: lib/vendor/acf/repeater/views/options.php:166
+msgid "Required?"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:209
+#: lib/vendor/acf/repeater/views/options.php:211
+msgid "Conditional Logic"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:260
+#: lib/vendor/acf/master/core/views/meta_box_location.php:117
+#: lib/vendor/acf/repeater/views/options.php:262
+msgid "is equal to"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:261
+#: lib/vendor/acf/master/core/views/meta_box_location.php:118
+#: lib/vendor/acf/repeater/views/options.php:263
+msgid "is not equal to"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:279
+#: lib/vendor/acf/repeater/views/options.php:281
+msgid "Show this field when"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:285
+#: lib/vendor/acf/repeater/views/options.php:287
+msgid "all"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:286
+#: lib/vendor/acf/repeater/views/options.php:288
+msgid "any"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:289
+#: lib/vendor/acf/repeater/views/options.php:291
+msgid "these rules are met"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:303
+#: lib/vendor/acf/repeater/views/options.php:305
+msgid "Close Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:316
+#: lib/vendor/acf/repeater/views/options.php:320
+msgid "Drag and drop to reorder"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_fields.php:317
+msgid "+ Add Field"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:48
+msgid "Rules"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:49
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:60
+msgid "Show this field group if"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:76
+msgid "Logged in User Type"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:78
+#: lib/vendor/acf/master/core/views/meta_box_location.php:79
+msgid "Post"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:80
+msgid "Post Category"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:81
+msgid "Post Format"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:82
+msgid "Post Status"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:83
+msgid "Post Taxonomy"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:85
+#: lib/vendor/acf/master/core/views/meta_box_location.php:86
+msgid "Page"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:87
+msgid "Page Type"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:88
+msgid "Page Parent"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:89
+msgid "Page Template"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:92
+msgid "Attachment"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:93
+msgid "Taxonomy Term"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:146
+msgid "and"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_location.php:161
+msgid "Add rule group"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:25
+msgid "Order No."
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:26
+msgid "Field groups are created in order <br />from lowest to highest"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:42
+msgid "Position"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:52
+msgid "High (after title)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:53
+msgid "Normal (after content)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:54
+msgid "Side"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:64
+msgid "Style"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:74
+msgid "Seamless (no metabox)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:75
+msgid "Standard (WP metabox)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:84
+msgid "Hide on screen"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:85
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:86
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used. (the one with the lowest order number)"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:96
+msgid "Permalink"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:97
+msgid "Content Editor"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:98
+msgid "Excerpt"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:101
+msgid "Comments"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:103
+msgid "Slug"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:104
+msgid "Author"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:105
+msgid "Format"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:107
+msgid "Categories"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:108
+msgid "Tags"
+msgstr ""
+
+#: lib/vendor/acf/master/core/views/meta_box_options.php:109
+msgid "Send Trackbacks"
+msgstr ""
+
+#: lib/vendor/acf/project-phases/acf-project-phases-v4.php:74
+#: lib/vendor/acf/project-users/acf-project-users-v4.php:64
+msgid "No settings required"
+msgstr ""
+
+#: lib/vendor/acf/project-phases/acf-project-phases-v5.php:57
+#: lib/vendor/acf/project-users/acf-project-users-v5.php:57
+#: lib/vendor/acf/slider/acf-slider-v5.php:57
+msgid "Error! Please enter a higher value"
+msgstr ""
+
+#: lib/vendor/acf/project-users/acf-project-users-v4.php:23
+#: lib/vendor/acf/project-users/acf-project-users-v5.php:32
+msgid "Project Users"
+msgstr ""
+
+#: lib/vendor/acf/repeater/repeater.php:22
+msgid "Repeater"
+msgstr ""
+
+#: lib/vendor/acf/repeater/repeater.php:29
+msgid "Add Row"
+msgstr ""
+
+#: lib/vendor/acf/repeater/repeater.php:32
+msgid "Minimum rows reached ( {min} rows )"
+msgstr ""
+
+#: lib/vendor/acf/repeater/repeater.php:33
+msgid "Maximum rows reached ( {max} rows )"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:23
+msgid "new_field"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:44
+msgid "Repeater Fields"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:63
+msgid ""
+"No fields. Click the \"+ Add Sub Field button\" to create your first field."
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:83
+msgid "Read documentation for this field"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:83
+msgid "Docs"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:102
+msgid "This is the name which will appear on the edit page"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:184
+msgid "Column Width"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:300
+msgid "Save Field"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:305
+msgid "Close Sub Field"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:321
+msgid "+ Add Sub Field"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:328
+msgid "Minimum Rows"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:342
+msgid "Maximum Rows"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:366
+msgid "Table"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:367
+msgid "Row"
+msgstr ""
+
+#: lib/vendor/acf/repeater/views/options.php:375
+msgid "Button Label"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:23
+#: lib/vendor/acf/slider/acf-slider-v5.php:32
+msgid "Number Slider"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:74
+msgid "Minimum"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:75
+msgid "Minimum number users can choose"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:92
+msgid "Maximum"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:93
+#: lib/vendor/acf/slider/acf-slider-v5.php:101
+msgid "Maximum number users can choose"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:110
+#: lib/vendor/acf/slider/acf-slider-v5.php:107
+msgid "Stepping"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:111
+msgid "How much to increment on moving"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:128
+#: lib/vendor/acf/slider/acf-slider-v5.php:114
+msgid "Starting Value"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v4.php:129
+msgid "What should the project start at?"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v5.php:93
+msgid "Minimum Number"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v5.php:94
+msgid "What's the lowest number a user can choose"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v5.php:100
+msgid "Maximum Number"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v5.php:108
+msgid "The amount each movement will adjust"
+msgstr ""
+
+#: lib/vendor/acf/slider/acf-slider-v5.php:115
+msgid "The amount the slider should start at"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-admin.php:115
+#: lib/vendor/clone/duplicate-post-admin.php:136
+#: lib/vendor/clone/duplicate-post-common.php:66
+#: lib/vendor/clone/duplicate-post-common.php:70
+msgid "Copy to a new draft"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-admin.php:116
+msgid "Clone"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-admin.php:163
+msgid "No post to duplicate has been supplied!"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-admin.php:185
+msgid "Copy creation failed, could not find original:"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-admin.php:349
+#: lib/vendor/clone/duplicate-post-options.php:69
+msgid "Donate"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-admin.php:350
+#: lib/vendor/clone/duplicate-post-options.php:70
+msgid "Translate"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:29
+#: lib/vendor/clone/duplicate-post-options.php:63
+msgid "Duplicate Post Options"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:29
+msgid "Duplicate Post"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:68
+msgid "Visit plugin site"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:80
+msgid "Copy post/page date also"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:83
+msgid ""
+"Normally, the new copy has its publication date set to current time: check "
+"the box to copy the original post/page date"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:88
+msgid "Copy post/page status"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:92
+msgid ""
+"Copy the original post status (draft, published, pending) when cloning from "
+"the post list."
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:97
+msgid "Copy excerpt"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:101
+msgid "Copy the excerpt from the original post/page"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:106
+msgid "Copy attachments"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:110
+msgid "Copy the attachments from the original post/page"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:115
+msgid "Copy children"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:119
+msgid "Copy the children from the original post/page"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:124
+msgid "Do not copy these fields"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:128
+msgid "Comma-separated list of meta fields that must not be copied"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:133
+msgid "Do not copy these taxonomies"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:147
+msgid "Select the taxonomies you don't want to be copied"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:152
+msgid "Title prefix"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:156
+msgid ""
+"Prefix to be added before the original title, e.g. \"Copy of\" (blank for no "
+"prefix)"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:161
+msgid "Title suffix"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:165
+msgid ""
+"Suffix to be added after the original title, e.g. \"(dup)\" (blank for no "
+"suffix)"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:170
+msgid "Roles allowed to copy"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:183
+msgid ""
+"Warning: users will be able to copy all posts, even those of other users"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:188
+msgid "Show links in"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:192
+msgid "Post list"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:195
+msgid "Edit screen"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:198
+msgid "Admin bar"
+msgstr ""
+
+#: lib/vendor/clone/duplicate-post-options.php:204
+msgid "Save Changes"
+msgstr ""
+
+#: yoop-project-portal.php:108
+msgid "Register License"
+msgstr ""
+
+#: yoop-project-portal.php:108 portal-license.php:72 portal-settings.php:72
+msgid "Settings"
+msgstr ""
+
+#: yoop-project-portal.php:129
+msgid "Activate your license"
+msgstr ""
+
+#: yoop-project-portal.php:129
+msgid "for automatic upgrades. Need a license?"
+msgstr ""
+
+#: yoop-project-portal.php:129
+msgid "Purchase one"
+msgstr ""
+
+#: portal-license.php:158 portal-license.php:201 portal-license.php:204
+#: portal-license.php:215 portal-settings.php:156 portal-settings.php:199
+#: portal-settings.php:202 portal-settings.php:213
+msgid "General"
+msgstr ""
+
+#: portal-license.php:159 portal-settings.php:157
+msgid "Appearance"
+msgstr ""
+
+#: portal-license.php:160 portal-settings.php:158
+msgid "Notifications"
+msgstr ""
+
+#: portal-license.php:161 portal-settings.php:159
+msgid "Advanced"
+msgstr ""
+
+#: portal-license.php:167 portal-settings.php:165
+msgid "Addons"
+msgstr ""
+
+#: portal-license.php:205 portal-settings.php:203
+msgid "Header"
+msgstr ""
+
+#: portal-license.php:206 portal-settings.php:204
+msgid "Body"
+msgstr ""
+
+#: portal-license.php:208 portal-settings.php:206
+msgid "Custom Styling"
+msgstr ""
+
+#: portal-license.php:328 portal-settings.php:326
+msgid "Settings Updated."
+msgstr ""
+
+#: portal-license.php:463 portal-settings.php:461
+#, php-format
+msgid "The callback function used for the %s setting is missing."
+msgstr ""
+
+#: portal-license.php:470 portal-settings.php:468
+#, php-format
+msgid ""
+"The \"dummy\" Setting Type used on %s is meant to be used in conjunction "
+"with the %s filter set to \"__return_false\" in order to use a custom &lt;"
+"form&gt; rather than the included one."
+msgstr ""
+
+#: portal-license.php:503 portal-settings.php:501
+msgid "Upload File"
+msgstr ""
+
+#: portal-license.php:644 portal-settings.php:642
+msgid "Deactivate License"
+msgstr ""
+
+#: portal-license.php:646 portal-settings.php:644
+msgid "Inactive"
+msgstr ""
+
+#: portal-license.php:649 portal-license.php:853 portal-settings.php:647
+#: portal-settings.php:851
+msgid "Activate License"
+msgstr ""
+
+#: portal-license.php:650 portal-settings.php:648
+msgid "Check Activation Message"
+msgstr ""
+
+#: portal-license.php:652 portal-settings.php:650
+msgid "Please enter a license key and save to activate."
+msgstr ""
+
+#: portal-license.php:675 portal-settings.php:673
+msgid "Add Item"
+msgstr ""
+
+#: portal-license.php:739 portal-settings.php:737
+msgid "Collapse / Expand"
+msgstr ""
+
+#: portal-license.php:847 portal-settings.php:845
+msgid "License Key"
+msgstr ""
+
+#: portal-license.php:848 portal-settings.php:846
+msgid "Enter your License Key"
+msgstr ""
+
+#: portal-license.php:858 portal-settings.php:856
+msgid "Project Slug"
+msgstr ""
+
+#: portal-license.php:864 portal-settings.php:862
+msgid "Back Button Link"
+msgstr ""
+
+#: portal-license.php:866 portal-settings.php:864
+msgid "Leave blank for dashboard"
+msgstr ""
+
+#: portal-license.php:876 portal-settings.php:874
+msgid "General Settings"
+msgstr ""
+
+#: portal-license.php:882
+msgid "Logo for Project Pages"
+msgstr ""
+
+#: portal-license.php:888 portal-settings.php:920
+msgid "Use Custom Template"
+msgstr ""
+
+#: portal-license.php:893 portal-settings.php:925
+msgid "Choose Custom Template"
+msgstr ""
+
+#: portal-license.php:896 portal-settings.php:928
+msgid ""
+"Warning: This is an unsupported feature and might not work or display well "
+"with all themes."
+msgstr ""
+
+#: portal-license.php:902 portal-settings.php:934
+msgid "Header Settings"
+msgstr ""
+
+#: portal-license.php:908 portal-settings.php:940
+msgid "Menu Background"
+msgstr ""
+
+#: portal-license.php:914 portal-settings.php:946
+msgid "Menu Text"
+msgstr ""
+
+#: portal-license.php:920 portal-license.php:996 portal-license.php:1072
+#: portal-settings.php:952 portal-settings.php:1028 portal-settings.php:1104
+msgid "Reset Colors to Default"
+msgstr ""
+
+#: portal-license.php:924 portal-license.php:1000 portal-license.php:1076
+#: portal-settings.php:956 portal-settings.php:1032 portal-settings.php:1108
+msgid "Reset"
+msgstr ""
+
+#: portal-license.php:930 portal-settings.php:962
+msgid "Body Settings"
+msgstr ""
+
+#: portal-license.php:936 portal-settings.php:968
+msgid "Body Background"
+msgstr ""
+
+#: portal-license.php:942 portal-settings.php:974
+msgid "Background Heading"
+msgstr ""
+
+#: portal-license.php:948 portal-settings.php:980
+msgid "Background Link"
+msgstr ""
+
+#: portal-license.php:954 portal-settings.php:986
+msgid "Subnav Link"
+msgstr ""
+
+#: portal-license.php:960 portal-settings.php:992
+msgid "Subnav Link Active"
+msgstr ""
+
+#: portal-license.php:966 portal-settings.php:998
+msgid "Subnav Link Accent"
+msgstr ""
+
+#: portal-license.php:972 portal-settings.php:1004
+msgid "Body Text"
+msgstr ""
+
+#: portal-license.php:978 portal-settings.php:1010
+msgid "Body Link"
+msgstr ""
+
+#: portal-license.php:984 portal-settings.php:1016
+msgid "Footer Background"
+msgstr ""
+
+#: portal-license.php:990 portal-settings.php:1022
+msgid "Timeline"
+msgstr ""
+
+#: portal-license.php:1006 portal-settings.php:1038
+msgid "Phases Settings"
+msgstr ""
+
+#: portal-license.php:1012 portal-settings.php:1044
+msgid "Accent Color #1"
+msgstr ""
+
+#: portal-license.php:1018 portal-settings.php:1050
+msgid "Accent Color #1 Text"
+msgstr ""
+
+#: portal-license.php:1024 portal-settings.php:1056
+msgid "Accent Color #2"
+msgstr ""
+
+#: portal-license.php:1030 portal-settings.php:1062
+msgid "Accent Color #2 Text"
+msgstr ""
+
+#: portal-license.php:1036 portal-settings.php:1068
+msgid "Accent Color #3"
+msgstr ""
+
+#: portal-license.php:1042 portal-settings.php:1074
+msgid "Accent Color #3 Text"
+msgstr ""
+
+#: portal-license.php:1048 portal-settings.php:1080
+msgid "Accent Color #4"
+msgstr ""
+
+#: portal-license.php:1054 portal-settings.php:1086
+msgid "Accent Color #4 Text"
+msgstr ""
+
+#: portal-license.php:1060 portal-settings.php:1092
+msgid "Accent Color #5"
+msgstr ""
+
+#: portal-license.php:1066 portal-settings.php:1098
+msgid "Accent Color #5 Text"
+msgstr ""
+
+#: portal-license.php:1082 portal-settings.php:1114
+msgid "Custom CSS"
+msgstr ""
+
+#: portal-license.php:1089 portal-settings.php:1121
+msgid "Calendar Language"
+msgstr ""
+
+#: portal-license.php:1100 portal-settings.php:1132
+msgid "Default Email Settings"
+msgstr ""
+
+#: portal-license.php:1105 portal-settings.php:1137
+msgid "From Name"
+msgstr ""
+
+#: portal-license.php:1107 portal-settings.php:1139
+msgid "Use <code>%current_user%</code> for current user's name"
+msgstr ""
+
+#: portal-license.php:1111 portal-settings.php:1143
+msgid "From E-Mail"
+msgstr ""
+
+#: portal-license.php:1113 portal-settings.php:1145
+msgid "Use <code>%current_user%</code> for current user's e-mail"
+msgstr ""
+
+#: portal-license.php:1117 portal-settings.php:1149
+msgid "Include Logo"
+msgstr ""
+
+#: portal-license.php:1129 portal-settings.php:1166
+msgid ""
+"Available dynamic variables: <code>%project_title%</code> <code>"
+"%client%</code> <code>%project_url%</code> <code>%dashboard%</code> <code>"
+"%date%</code>"
+msgstr ""
+
+#: portal-license.php:1138 portal-settings.php:1175
+msgid "Enable wp_footer call on project pages"
+msgstr ""
+
+#: portal-license.php:1140 portal-settings.php:1177
+msgid "If you're having issues with shortcodes try turning this on first."
+msgstr ""
+
+#: portal-license.php:1144 portal-settings.php:1181
+msgid "Enable wp_head call on project pages"
+msgstr ""
+
+#: portal-license.php:1146 portal-settings.php:1183
+msgid ""
+"If you're having issues with shortcodes and wp_footer didnt work, try "
+"turning this on."
+msgstr ""
+
+#: portal-license.php:1150 portal-settings.php:1187
+msgid "Turn off file link obfuscation"
+msgstr ""
+
+#: portal-license.php:1152 portal-settings.php:1189
+msgid ""
+"If you're having trouble with people downloading documents, try turning this "
+"on."
+msgstr ""
+
+#: portal-license.php:1156 portal-settings.php:1193
+msgid "Lazy load WYSIWYG editors"
+msgstr ""
+
+#: portal-license.php:1158 portal-settings.php:1195
+msgid ""
+"If you're having trouble with performance while editing projects, try "
+"enabling this"
+msgstr ""
+
+#: portal-license.php:1162 portal-settings.php:1199
+msgid "Disable Clone Post"
+msgstr ""
+
+#: portal-license.php:1164 portal-settings.php:1201
+msgid ""
+"If you're using the Duplicate Post plugin and getting errors, check this box."
+msgstr ""
+
+#: portal-license.php:1168
+msgid "Re-run milestone upgrade script"
+msgstr ""
+
+#: portal-license.php:1171
+msgid "Rerun Upgrade"
+msgstr ""
+
+#: portal-license.php:1175
+msgid "Revert back to old milestone system"
+msgstr ""
+
+#: portal-license.php:1178
+msgid "Revert"
+msgstr ""
+
+#: portal-license.php:1309 portal-settings.php:1332
+msgid "Standard Page"
+msgstr ""
+
+#: portal-license.php:1313 portal-settings.php:1336
+msgid "Single Post"
+msgstr ""
+
+#: portal-license.php:1317 portal-settings.php:1340
+msgid "Choose Template"
+msgstr ""
+
+#: portal-license.php:1444 portal-license.php:1474 portal-settings.php:1467
+#: portal-settings.php:1497
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: portal-license.php:1453 portal-settings.php:1476
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: portal-license.php:1458 portal-settings.php:1481
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: portal-license.php:1461 portal-settings.php:1484
+msgid "Invalid license."
+msgstr ""
+
+#: portal-license.php:1465 portal-settings.php:1488
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: portal-license.php:1468 portal-settings.php:1491
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: portal-license.php:1471 portal-settings.php:1494
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: portal-settings.php:880
+msgid "Logo for yoop Pages"
+msgstr ""
+
+#: portal-settings.php:886
+msgid "Logo Link"
+msgstr ""
+
+#: portal-settings.php:887
+msgid "Where would you like the logo to link?"
+msgstr ""
+
+#: portal-settings.php:892
+msgid "Favicon"
+msgstr ""
+
+#: portal-settings.php:893
+msgid "Upload a 128 x 128 png or ICO to use as a favicon on yoop pages"
+msgstr ""
+
+#: portal-settings.php:899
+msgid "Dashboard sort by"
+msgstr ""
+
+#: portal-settings.php:900
+msgid "How do you want dashboard projects to be sorted?"
+msgstr ""
+
+#: portal-settings.php:903
+msgid "Creation date"
+msgstr ""
+
+#: portal-settings.php:904
+msgid "Start date"
+msgstr ""
+
+#: portal-settings.php:905
+msgid "End date"
+msgstr ""
+
+#: portal-settings.php:906
+msgid "Alphabetical"
+msgstr ""
+
+#: portal-settings.php:911
+msgid "Dashboard sort order"
+msgstr ""
+
+#: portal-settings.php:914
+msgid "Ascending"
+msgstr ""
+
+#: portal-settings.php:915
+msgid "Descending"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.projectyoop.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Give your team and your clients a 360 degree view of your projects"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SnapOrbital"
+msgstr ""
+
+#: lib/models/portal-projects.php:20
+msgctxt "Post Type General Name"
+msgid "Projects"
+msgstr ""
+
+#: lib/models/portal-projects.php:24
+msgid "All Projects"
+msgstr ""
+
+#: lib/controllers/portal-timing.php:233 lib/portal-admin.php:187
+msgid "Timing"
+msgstr "Test - Timing"
