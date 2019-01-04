@@ -186,6 +186,29 @@ function portal_sn_send_email() {
  */
 function portal_sn_add_new_replacements( $replacements, $notification_type, $args, $notification_ID ) {
 
+$settings = get_option('portal_settings');
+$replacements['%portal_message_1%'] = $settings['portal_message_1'];
+$replacements['%portal_message_2%'] = $settings['portal_message_2'];
+$replacements['%portal_message_3%'] = $settings['portal_message_3'];
+$replacements['%portal_message_4%'] = $settings['portal_message_4'];
+$replacements['%portal_message_5%'] = $settings['portal_message_5'];
+$replacements['%portal_message_6%'] = $settings['portal_message_6'];
+$replacements['%portal_message_7%'] = $settings['portal_message_7'];
+$replacements['%portal_message_8%'] = $settings['portal_message_8'];
+$replacements['%portal_message_9%'] = $settings['portal_message_9'];
+$replacements['%portal_message_10%'] = $settings['portal_message_10'];
+$replacements['%portal_message_11%'] = $settings['portal_message_11'];
+$replacements['%portal_message_12%'] = $settings['portal_message_12'];
+$replacements['%portal_message_13%'] = $settings['portal_message_13'];
+$replacements['%portal_message_14%'] = $settings['portal_message_14'];
+$replacements['%portal_message_15%'] = $settings['portal_message_15'];
+$replacements['%portal_message_16%'] = $settings['portal_message_16'];
+$replacements['%portal_message_17%'] = $settings['portal_message_17'];
+$replacements['%portal_message_18%'] = $settings['portal_message_18'];
+$replacements['%portal_message_19%'] = $settings['portal_message_19'];
+$replacements['%portal_message_20%'] = $settings['portal_message_20'];
+
+
 	$project_id = $args['project_id'];
 	$progress = get_post_meta( $project_id, 'percent_complete', true );
 	$description = get_post_meta( $project_id, 'project_description', true );

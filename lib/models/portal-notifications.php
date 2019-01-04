@@ -291,11 +291,32 @@ function portal_notifications_replacements( $strings, $notification_type, $args,
 	/**
 	 * Global Replacements
 	 */
-
+	$settings = get_option('portal_settings');
 	$replacements['%project_url%'] = '<a href="' . get_the_permalink( $args['project_id'] ) . '">' . __( 'View Project', 'portal_projects' ) . '</a>';
 	$replacements['%dashboard%']   = get_post_type_archive_link( 'portal_projects' );
 	$replacements['%date%']        = date( get_option( 'date_format' ) );
 	$replacements['%client%']      = get_field( 'client', $args['project_id'] );
+	$replacements['%portal_message_1%'] = $settings['portal_message_1'];
+	$replacements['%portal_message_2%'] = $settings['portal_message_2'];
+	$replacements['%portal_message_3%'] = $settings['portal_message_3'];
+	$replacements['%portal_message_4%'] = $settings['portal_message_4'];
+	$replacements['%portal_message_5%'] = $settings['portal_message_5'];
+	$replacements['%portal_message_6%'] = $settings['portal_message_6'];
+	$replacements['%portal_message_7%'] = $settings['portal_message_7'];
+	$replacements['%portal_message_8%'] = $settings['portal_message_8'];
+	$replacements['%portal_message_9%'] = $settings['portal_message_9'];
+	$replacements['%portal_message_10%'] = $settings['portal_message_10'];
+	$replacements['%portal_message_11%'] = $settings['portal_message_11'];
+	$replacements['%portal_message_12%'] = $settings['portal_message_12'];
+	$replacements['%portal_message_13%'] = $settings['portal_message_13'];
+	$replacements['%portal_message_14%'] = $settings['portal_message_14'];
+	$replacements['%portal_message_15%'] = $settings['portal_message_15'];
+	$replacements['%portal_message_16%'] = $settings['portal_message_16'];
+	$replacements['%portal_message_17%'] = $settings['portal_message_17'];
+	$replacements['%portal_message_18%'] = $settings['portal_message_18'];
+	$replacements['%portal_message_19%'] = $settings['portal_message_19'];
+	$replacements['%portal_message_20%'] = $settings['portal_message_20'];
+
 
 	$replacements = apply_filters( 'portal_notifications_replacements_array', $replacements, $notification_type, $args );
 
