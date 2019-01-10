@@ -75,6 +75,7 @@ function portal_notification_feeds_section( $notification_ID, $notification_args
 				'label' => __( 'Notify when...', 'portal_projects' ),
 				'args'  => array(
 					'options' => array(
+						'days_from_start'=> __( '... # of days have passed from project start date', 'portal_projects' ),
 						'task_complete'    => __( '...a task is completed on the frontend.', 'portal_projects' ),
 						'task_due'         => __( '...a task is due today.', 'portal_projects' ),
 						'task_overdue'     => __( '...a task is overdue.', 'portal_projects' ),
@@ -90,8 +91,8 @@ function portal_notification_feeds_section( $notification_ID, $notification_args
 		),
 	) );
 
-	$repeater_args['fields'] = array_merge( (array) $repeater_args['fields'], (array) $notification_args['fields'] );
 
+	$repeater_args['fields'] = array_merge( (array) $repeater_args['fields'], (array) $notification_args['fields'] );
 	$repeater_args['fields']['admin_title'] = array(
 		'type'  => 'text',
 		'label' => __( 'Admin Title', 'portal_projects' ),
@@ -151,6 +152,7 @@ function portal_notification_update_feeds( $notification_ID, $notification_args 
 			$post_args['post_title'] = $notification_args['default_feed_title'];
 		}
 
+
 		$post_ID = wp_insert_post( $post_args );
 
 		if ( $post_ID !== 0 && ! is_wp_error( $post_ID ) ) {
@@ -185,7 +187,7 @@ function portal_notification_delete_feeds() {
 
 add_action( 'init', 'portal_setup_cron_notification' );
 function portal_setup_cron_notification( $post_id ) {
-
+//wp_schedule_single_event( time() + 3600, 'portal_cron_notifications');
 	if ( get_option( 'portal_cron_running' ) ) {
 		return;
 	}
@@ -198,10 +200,12 @@ function portal_setup_cron_notification( $post_id ) {
 add_action( 'portal_cron_notifications', 'portal_send_date_notifications' );
 function portal_send_date_notifications() {
 
+portal_send_days_offset_email();
+
 	$notifications = apply_filters( 'portal_date_notification_types', array(
 		array(
 			'type' => 'task_due',
-			'date' => date( 'Ymd' )
+			'date' => date( 'Ymd' ),
 		),
 		array(
 			'type' => 'task_overdue',
@@ -233,6 +237,11 @@ function portal_test_notification_dates() {
 	if ( ! isset( $_GET['portal_test_notifications'] ) ) {
 		return;
 	}
+
+if(1 == 1){
+	portal_send_days_offset_email();
+	return;
+}
 
 	$notifications = apply_filters( 'portal_date_notification_types', array(
 		array(
@@ -335,6 +344,11 @@ function portal_notifications_replacements( $strings, $notification_type, $args,
 			$replacements['%project_title%'] = $args['project_title'];
 			$replacements['%progress%']      = $args['new_progress'];
 			break;
+
+	  case 'days_from_start':
+
+				$replacements['%project_title%'] = $args['project_title'];
+		break;
 
 		case 'project_complete':
 

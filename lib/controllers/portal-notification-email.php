@@ -6,6 +6,14 @@ function portal_add_email_notification( $notifications ) {
 		'name'               => __( 'Email', 'portal_projects' ),
 		'default_feed_title' => __( 'New email notification', 'portal_projects' ),
 		'fields'             => array(
+			'days_offset' => array(
+				'id'    => 'days_offset',
+				'label' => __( 'Days from start', 'portal_projects' ),
+				'type'  => 'text',
+				'args'  => array(
+						'desc' => __( '<em>* if applicable</em>'),
+				),
+			),
 			'recipient_email' => array(
 				'id'    => 'recipient_email',
 				'label' => __( 'Recipients', 'portal_projects' ),

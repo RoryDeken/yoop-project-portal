@@ -5,7 +5,6 @@ function portal_setup_notifications() {
 	global $portal_notifications;
 
 	$portal_notifications = apply_filters( 'portal_notifications', array() );
-
 	if ( ! $portal_notifications ) {
 		return;
 	}
@@ -79,11 +78,12 @@ function portal_notify_handle( $type, $args, $email_parts = array() ) {
 
 	if ( $portal_notifications ) {
 		foreach ( $portal_notifications as $notification_ID => $notification_args ) {
+
 			portal_notifications_do_notification( $notification_ID, $notification_args, $type, $args, $email_parts );
 		}
 	}
-
 }
+
 
 add_action( 'portal_users_added_to_project', 'portal_notify_users_of_project_assignment', 10, 2 );
 function portal_notify_users_of_project_assignment( $post_id, $user_ids = null ) {
@@ -183,7 +183,6 @@ function portal_send_email( $email_parts = array(), $args = array(), $notificati
 	$message = ob_get_clean();
 
 	add_filter( 'wp_mail_content_type', 'portal_set_mail_content_type' );
-
 	wp_mail( $recipient_email, $subject, $message, $headers );
 
 	remove_filter( 'wp_mail_content_type', 'portal_set_mail_content_type' );
@@ -217,6 +216,7 @@ function portal_notify_users( $post_id ) {
 
 		// Check to see if notifications were turned on
 		if ( isset( $_POST['portal-notify-users'] ) ) {
+
 
 			// Get an array of users
 			$user_ids = portal_sanitize_integers( $_POST['portal-user'] );
@@ -445,6 +445,7 @@ function portal_notify_metabox() {
 
 }
 
+
 add_action( 'portal_project_progress_change', 'portal_project_change_notification', 10, 2 );
 function portal_project_change_notification( $post_id, $new_progress ) {
 
@@ -453,5 +454,106 @@ function portal_project_change_notification( $post_id, $new_progress ) {
 		'project_title' => get_the_title( $post_id ),
 		'new_progress'  => $new_progress
 	) );
+
+}
+
+
+
+
+function portal_send_days_offset_email(){
+
+	$now = time();
+
+global $wpdb;
+
+
+		$start_dates = $wpdb->get_results(
+						"
+						SELECT *
+						FROM {$wpdb->prefix}postmeta
+						WHERE meta_key LIKE 'start_date'
+								AND meta_value IS NOT NULL
+						"
+			);
+
+
+				$portal_projects_with_start_dates_ids = array();
+				foreach($start_dates as $start_date){
+					if(get_post_type($start_date->post_id) == 'portal_projects'){
+						$portal_projects_with_start_dates_ids[] = $start_date->post_id;
+					}
+
+				}
+				$portal_projects_with_start_dates = array();
+				foreach($portal_projects_with_start_dates_ids as $project){
+				$portal_projects_with_start_dates[] = array($project, get_post_meta($project,'start_date' ,TRUE ));
+				}
+
+
+
+
+	global $portal_notifications;
+$notification_ID = 'email';
+
+$notification_args = $portal_notifications[$notification_ID];
+
+$notification_type = 'days_from_start';
+
+
+	$notifications = get_posts( array(
+		'post_type'   => "portal-{$notification_ID}-feed",
+		'numberposts' => - 1,
+		'meta_key'    => "portal_{$notification_ID}_feed_notification",
+		'meta_value'  => $notification_type,
+	) );
+
+
+	foreach ( $notifications as $notification_post ) {
+
+		$notification_post_fields = array();
+		foreach ( $notification_args['fields'] as $field_name => $field ) {
+			$notification_post_fields[ $field_name ] = get_post_meta(
+				$notification_post->ID,
+				"portal_{$notification_ID}_feed_{$field_name}",
+				true
+			);
+		}
+
+
+						foreach($portal_projects_with_start_dates as $project){
+
+							$date = strtotime($project[1]);
+							$datediff = $now - $date;
+						  $comparison = floor($datediff / (60 * 60 * 24));
+							$project_id = $project[0];
+							$users = portal_get_project_users( $project_id);
+
+
+						if($comparison == $notification_post_fields['days_offset'] ) {
+
+							$args = array(
+							 'post_type'                   => 'portal-email-feed',
+							 'posts_per_page'              => - 1,
+							 'portal_email_feed_notification' => $notification_type,
+							 'post_id'=>$project_id,
+							 'project_title'=>$notification_post->post_title
+							);
+
+				 portal_notify_email(
+							 $notification_post,
+							 $notification_post_fields,
+							 $args,
+							 $notification_ID,
+							 $notification_args,
+							 $notification_type
+						 );
+
+						}
+
+
+
+						}
+
+					}
 
 }
