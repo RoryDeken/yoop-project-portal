@@ -9,5 +9,6 @@
 
 defined( 'ABSPATH' ) || die();
 ?>
-
-<?php echo wpautop( $message ); ?>
+<p style="padding: 0; margin: 0;">
+  <span style="background-color: transparent;"><?php echo wpautop( $message ); ?></span>
+</p>
