@@ -295,7 +295,7 @@ $container_styles = array(
 
 																											<?php
 
-																												include_once('custom.php');
+																												include('custom.php');
 
 																											?>
                                                       <!-- body here -->
