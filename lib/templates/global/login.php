@@ -41,6 +41,7 @@ do_action( 'login_enqueue_scripts' );
 	<?php do_action( 'portal_login_form_after' ); ?>
 
 	<p class="portal-text-center"><a href="<?php echo esc_url(wp_lostpassword_url(site_url().$_SERVER['REQUEST_URI'])); ?>"><?php esc_html_e( 'Lost your password?', 'portal_projects' ); ?></a></p>
+	<p class="portal-text-center"><a href="<?php echo get_permalink(526);?>"><?php esc_html_e( 'Not a customer?', 'portal_projects' ); ?></a></p>
 
 </div>
 <?php do_action( 'login_footer' ); ?>
