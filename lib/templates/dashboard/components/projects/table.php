@@ -12,9 +12,8 @@
         $priority = $priorities[$priority];
 
         do_action( 'portal_archive_project_listing_before_row' ); ?>
-
+ <?php if(get_post_status($post->ID) != 'archive'){ ?>
         <div id="portal-archive-project-<?php echo esc_attr($post->ID); ?>" class="portal-archive-project" data-project="<?php the_title(); ?>" data-client="<?php the_field('client'); ?>" data-url="<?php the_permalink(); ?>">
-
             <?php do_action( 'portal_archive_project_listing_before_open', $post->ID ); ?>
 
             <div class="portal-row cf">
@@ -79,6 +78,7 @@
             </div>
             <?php do_action( 'portal_archive_project_listing_before_close', $post->ID ); ?>
         </div>
+      <?php } ?>
     <?php endwhile; ?>
 </div>
 
